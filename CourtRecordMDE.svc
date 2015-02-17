@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Arizona.Courts.Services.v20.CourtRecordMDE" CodeBehind="CourtRecordMDE.svc.cs" %>
