@@ -5,19 +5,9 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AZCRMDE", "AZCRMDE.csproj", "{5012C630-7B0A-43AA-91EA-EA54F8208723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContractsECF4.0", "..\..\development\eUniversa1\4.9\Courts\DataContractsECF4.0\DataContractsECF4.0.csproj", "{5199CC25-5FCD-47A1-A8A5-591D5636F4FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AZServiceTest", "..\AZServiceTest\AZServiceTest.csproj", "{0361918F-40DD-4945-ABE8-9FE21D18B24D}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 1
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://nv-tfs1:8080/tfs/euniversa
-		SccProjectUniqueName0 = ..\\..\\development\\eUniversa1\\4.9\\Courts\\DataContractsECF4.0\\DataContractsECF4.0.csproj
-		SccProjectName0 = $/eUniversa/4.9/Courts/DataContractsECF4.0
-		SccAuxPath0 = http://nv-tfs1:8080/tfs/euniversa
-		SccLocalPath0 = ..\\..\\development\\eUniversa1\\4.9\\Courts\\DataContractsECF4.0
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -27,10 +17,10 @@ Global
 		{5012C630-7B0A-43AA-91EA-EA54F8208723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5012C630-7B0A-43AA-91EA-EA54F8208723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5012C630-7B0A-43AA-91EA-EA54F8208723}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5199CC25-5FCD-47A1-A8A5-591D5636F4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5199CC25-5FCD-47A1-A8A5-591D5636F4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5199CC25-5FCD-47A1-A8A5-591D5636F4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5199CC25-5FCD-47A1-A8A5-591D5636F4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0361918F-40DD-4945-ABE8-9FE21D18B24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0361918F-40DD-4945-ABE8-9FE21D18B24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0361918F-40DD-4945-ABE8-9FE21D18B24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0361918F-40DD-4945-ABE8-9FE21D18B24D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
