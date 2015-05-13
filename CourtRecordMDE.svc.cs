@@ -13,15 +13,18 @@
 	*/
 
 using System;
+using System.IO;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
-using ecf=Oasis.LegalXml.CourtFiling.v40.Ecf;
-using nc = Niem.NiemCore.v20 ;
-using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
-using aoc = Arizona.Courts.Extensions.v20;
+using System.Web;
+using System.Web.Hosting;
+using System.Xml.Serialization;
 using amc = Arizona.Courts.ExChanges.v20;
+using aoc = Arizona.Courts.Extensions.v20;
 using caseResponse = Oasis.LegalXml.CourtFiling.v40.CaseResponse;
-
+using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
+using nc = Niem.NiemCore.v20;
+using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 
 
 namespace Arizona.Courts.Services.v20
@@ -40,28 +43,49 @@ namespace Arizona.Courts.Services.v20
 
         public wmp.GetCaseResponse GetCase(wmp.GetCaseRequest getCaseRequest)
         {
-            wmp.GetCaseResponse response = new wmp.GetCaseResponse
-            {
-                CaseResponseMessage = new Oasis.LegalXml.CourtFiling.v40.CaseResponse.CaseResponseMessageType
-                {
-                    SendingMDELocationID = new  nc.IdentificationType("http:/courts.az.gov/aoc/efiling/CRMDE") ,
-                    SendingMDEProfileCode =  nc.Constants.ECF4_WEBSERVICES_SIP_CODE ,
-                    CaseCourt = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null ? getCaseRequest.CaseQueryMessage.CaseCourt : null
-
-                }
-            };
+            wmp.GetCaseResponse response = new wmp.GetCaseResponse();
             try
             {
-                response.GetCaseResponseObject = new  amc.GetCaseResponseWrapperType
+                string caseTrackingId = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseTrackingID != null && !string.IsNullOrEmpty(getCaseRequest.CaseQueryMessage.CaseTrackingID.Value) ? getCaseRequest.CaseQueryMessage.CaseTrackingID.Value : string.Empty;
+                aoc.CivilCaseType civilCase = this.GetCase(caseTrackingId);
+                if (civilCase != null)
                 {
-                     GetCaseResponse = new amc.GetCaseResponseType
-                     { 
-                         CaseResponseMessage  = new  caseResponse.CaseResponseMessageType
-                         {
-                              Case = SampleCivilCases.AZCivilCase 
-                         }
-                     }
-                };
+                    response = new wmp.GetCaseResponse
+                    (
+                        getCaseResponse: new amc.GetCaseResponseType
+                        {
+                            CaseResponseMessage = new caseResponse.CaseResponseMessageType
+                            {
+                                Case = civilCase,
+                                Error = ecf.EcfHelper.OperationSuccessfull(),
+                                CaseCourt = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseCourt != null ? getCaseRequest.CaseQueryMessage.CaseCourt : SampleCourts.CaseCourt,
+                                SendingMDELocationID = new nc.IdentificationType("http://courts.az.gov/eFiling/MockCRMDE"),
+                                SendingMDEProfileCode = "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0"
+                            }
+
+                        }
+                    );
+                }
+                else if ( civilCase == null)
+                {
+                    response = new wmp.GetCaseResponse
+                    (
+                        getCaseResponse: new amc.GetCaseResponseType
+                        {
+                            CaseResponseMessage = new caseResponse.CaseResponseMessageType
+                            {
+                                Case = null,
+                                Error = ecf.EcfHelper.ErrorList("-1" , string.Format( "Case #  {0} not found.!!!!" , caseTrackingId) ),
+                                CaseCourt = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseCourt != null ? getCaseRequest.CaseQueryMessage.CaseCourt : SampleCourts.CaseCourt,
+                                SendingMDELocationID = new nc.IdentificationType("http://courts.az.gov/eFiling/MockCRMDE"),
+                                SendingMDEProfileCode = "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0"
+                            }
+
+                        }
+                    );
+
+                }
+
             }
             catch (Exception ex)
             {
@@ -76,6 +100,56 @@ namespace Arizona.Courts.Services.v20
 
             return response;
 
+        }
+
+        private aoc.CivilCaseType GetCase(string caseTrackingId)
+        {
+            aoc.CivilCaseType civilCase = null;
+            if (!string.IsNullOrEmpty(caseTrackingId))
+            {
+
+                string caseXmlFile = GetApplicationPath() + @"\SampleCases\" + caseTrackingId + ".xml";
+                if (File.Exists(caseXmlFile))
+                {
+                    using (var fs = new FileStream(caseXmlFile, FileMode.Open , FileAccess.Read ))
+                    {
+                        XmlSerializer serializer = new XmlSerializer(typeof(aoc.CivilCaseType));
+                        civilCase = serializer.Deserialize(fs) as aoc.CivilCaseType;
+                    }
+
+                }
+            }
+            return civilCase;
+        }
+
+        private string GetApplicationPath()
+        {
+            string applicationPath = String.Empty;
+            try
+            {
+                if (HttpContext.Current != null)
+                {
+                    applicationPath = HttpContext.Current.Server.MapPath(".");
+                }
+                else
+                {
+                    if (OperationContext.Current != null)
+                    {
+                        applicationPath = HostingEnvironment.ApplicationPhysicalPath;
+                    }
+                    else
+                    {
+                        string applicationCodeBase = System.Reflection.Assembly.GetCallingAssembly().CodeBase;
+                        applicationPath = Path.GetDirectoryName(applicationCodeBase.Replace(@"file:///", ""));
+
+                    }
+                }
+
+            }
+            catch
+            {
+            }
+            return applicationPath;
         }
 
         public wmp.GetCaseListResponse GetCaseList(wmp.GetCaseListRequest getCaseListRequest)
