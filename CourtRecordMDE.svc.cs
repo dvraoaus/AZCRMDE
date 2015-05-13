@@ -12,32 +12,35 @@
     =======================================================================
 	*/
 
-using Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 using System;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
 using ecf=Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20 ;
+using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 using aoc = Arizona.Courts.Extensions.v20;
+using amc = Arizona.Courts.ExChanges.v20;
+using caseResponse = Oasis.LegalXml.CourtFiling.v40.CaseResponse;
+
 
 
 namespace Arizona.Courts.Services.v20
 {
     [ServiceBehavior(Name = "CourtRecordMDEService", Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
-    public class CourtRecordMDE : ICourtRecordMDE
+    public class CourtRecordMDE : wmp.ICourtRecordMDE
     {
         
-        public RecordFilingResponse RecordFiling(RecordFilingRequest recordFilingRequest)
+        public wmp.RecordFilingResponse RecordFiling(wmp.RecordFilingRequest recordFilingRequest)
         {
-            RecordFilingResponse response = null;
+            wmp.RecordFilingResponse response = null;
          
             return response;
         }
 
 
-        public GetCaseResponse GetCase(GetCaseRequest getCaseRequest)
+        public wmp.GetCaseResponse GetCase(wmp.GetCaseRequest getCaseRequest)
         {
-            GetCaseResponse response = new GetCaseResponse
+            wmp.GetCaseResponse response = new wmp.GetCaseResponse
             {
                 CaseResponseMessage = new Oasis.LegalXml.CourtFiling.v40.CaseResponse.CaseResponseMessageType
                 {
@@ -49,9 +52,15 @@ namespace Arizona.Courts.Services.v20
             };
             try
             {
-                response.CaseResponseMessage = new Oasis.LegalXml.CourtFiling.v40.CaseResponse.CaseResponseMessageType
+                response.GetCaseResponseObject = new  amc.GetCaseResponseWrapperType
                 {
-                    Case = SampleCivilCases.AZCivilCase
+                     GetCaseResponse = new amc.GetCaseResponseType
+                     { 
+                         CaseResponseMessage  = new  caseResponse.CaseResponseMessageType
+                         {
+                              Case = SampleCivilCases.AZCivilCase 
+                         }
+                     }
                 };
             }
             catch (Exception ex)
@@ -69,11 +78,11 @@ namespace Arizona.Courts.Services.v20
 
         }
 
-        public GetCaseListResponse GetCaseList(GetCaseListRequest getCaseListRequest)
+        public wmp.GetCaseListResponse GetCaseList(wmp.GetCaseListRequest getCaseListRequest)
         {
-            GetCaseListResponse response = null;
+            wmp.GetCaseListResponse response = null;
 
-            response = new GetCaseListResponse { CaseListResponseMessage = new  Oasis.LegalXml.CourtFiling.v40.CaseListResponse.CaseListResponseMessageType()};
+            response = new wmp.GetCaseListResponse { CaseListResponseMessage = new  Oasis.LegalXml.CourtFiling.v40.CaseListResponse.CaseListResponseMessageType()};
             try
             {
 
@@ -94,11 +103,11 @@ namespace Arizona.Courts.Services.v20
         }
 
 
-        public GetServiceInformationResponse GetServiceInformation(GetServiceInformationRequest getServiceInformationRequest)
+        public wmp.GetServiceInformationResponse GetServiceInformation(wmp.GetServiceInformationRequest getServiceInformationRequest)
         {
-            GetServiceInformationResponse response = null;
+            wmp.GetServiceInformationResponse response = null;
 
-            response = new GetServiceInformationResponse {  ServiceInformationResponseMessage = new  Oasis.LegalXml.CourtFiling.v40.ServiceResponse.ServiceInformationResponseMessageType() };
+            response = new wmp.GetServiceInformationResponse {  ServiceInformationResponseMessage = new  Oasis.LegalXml.CourtFiling.v40.ServiceResponse.ServiceInformationResponseMessageType() };
             try
             {
 
@@ -118,9 +127,9 @@ namespace Arizona.Courts.Services.v20
         }
 
 
-        public GetDocumentResponse GetDocument(GetDocumentRequest getDocumentRequest)
+        public wmp.GetDocumentResponse GetDocument(wmp.GetDocumentRequest getDocumentRequest)
         {
-            GetDocumentResponse response = new GetDocumentResponse
+            wmp.GetDocumentResponse response = new wmp.GetDocumentResponse
             {
                 DocumentResponseMessage = new  Oasis.LegalXml.CourtFiling.v40.DocumentResponse.DocumentResponseMessageType
                 {

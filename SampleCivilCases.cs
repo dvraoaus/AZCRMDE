@@ -45,7 +45,6 @@ namespace Arizona.Courts.Services.v20
                                  extension: string.Empty,
                                  emailAddress: string.Empty
                                );
-                aocOrganization.OrganizationAugmentation1 = new j.OrganizationAugmentationType();
                 aocOrganization.EcfOrganizationAugmentation = new ecf.OrganizationAugmentationType();
                 List<ecf.CaseParticipantType> caseParticipant = new List<ecf.CaseParticipantType>
                         {

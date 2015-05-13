@@ -37,26 +37,27 @@ namespace Arizona.Courts.Services.v20
                               LocationAddress = new List<nc.AddressType>
                               {
                                   new nc.AddressType
-                                      (
-                                        address1: "110 West Congress Street" ,
+                                  (
+                                        address1: "120 S Cortez St" ,
                                         address2 : string.Empty ,
-                                        city : "Tucson" ,
+                                        city : "Prescott" ,
                                         state: "AZ" ,
-                                        zipCode:"85701" ,
-                                        countryCode:"US" ,
-                                        country: "United States of America"
-                                      )
+                                        zipCode:"86302" ,
+                                        countryCode:"US"
+                                  ) 
+                                  
                               }
                          }
                      },
                     CourtName = new List<nc.TextType>
                      {
-                         new  nc.TextType("Pima Superior Court")
+                         new  nc.TextType("Yavapai County Superior Court ")
                      }
                 };
             }
 
         }
+
 
     }
 }

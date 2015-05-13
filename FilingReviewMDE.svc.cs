@@ -14,14 +14,15 @@
 
 using Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 using System;
-using System.ServiceModel;
-using System.ServiceModel.Activation;
-using ecf=Oasis.LegalXml.CourtFiling.v40.Ecf;
-using nc = Niem.NiemCore.v20 ;
-using aoc = Arizona.Courts.Extensions.v20;
 using System.Collections.Generic;
 using System.IO;
+using System.ServiceModel;
+using System.ServiceModel.Activation;
 using System.Xml.Serialization;
+using amp = Arizona.Courts.ExChanges.v20;
+using aoc = Arizona.Courts.Extensions.v20;
+using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
+using nc = Niem.NiemCore.v20;
 
 namespace Arizona.Courts.Services.v20
 {
@@ -84,11 +85,12 @@ namespace Arizona.Courts.Services.v20
         {
             string cmsConformationNumber = string.Empty;
 
-            if (reviewFilingRequest != null && reviewFilingRequest.ReviewFilingRequestMessage != null && reviewFilingRequest.ReviewFilingRequestMessage.CoreFilingMessage != null)
+            if (reviewFilingRequest != null && reviewFilingRequest.ReviewFilingRequestMessageObject != null && reviewFilingRequest.ReviewFilingRequestMessageObject is amp.ReviewFilingRequestType)
             {
+                aoc.CoreFilingMessageType coreFilingMessage = (reviewFilingRequest.ReviewFilingRequestMessageObject as amp.ReviewFilingRequestType).CoreFilingMessage;
                     // requestId is Portal Unique Identification # 
                     long requestId = -1;
-                    long.TryParse(reviewFilingRequest.ReviewFilingRequestMessage.CoreFilingMessage.DocumentIdentification[0].IdentificationID[0].ToString(), out requestId);
+                    long.TryParse(coreFilingMessage.DocumentIdentification[0].IdentificationID[0].ToString(), out requestId);
                     if (requestId > 0)
                     {
                         string recordFilingFilesSaveFolder = @"c:\temp" ;
