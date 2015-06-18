@@ -68,6 +68,49 @@ namespace Arizona.Courts.Services.v20
                 }
                 else if ( civilCase == null)
                 {
+                    string errorCode = "-10";
+                    string errorText = string.Empty  ;
+                    if ( !string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_ACCESS_CCI))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_ACCESS_CCI ;
+                        errorText = "Unable to access CCI" ;
+                    }
+                    else if ( !string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_FIND_CASE_IN_CCI.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_FIND_CASE_IN_CCI ;
+                        errorText = string.Format("Case #  {0} not found.!!!!", caseTrackingId);
+                    }
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_SEALED_CASE.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_SEALED_CASE;
+                        errorText = string.Format("Case #  {0} is a sealed case.!!!!", caseTrackingId);
+                    }
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_RESTRICTED_CASE.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_RESTRICTED_CASE;
+                        errorText = string.Format("Case #  {0} is restricted.!!!!", caseTrackingId);
+                    }
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CONSOLIDATED_CASE.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CONSOLIDATED_CASE;
+                        errorText = string.Format("Case #  {0} is consolidated.!!!!", caseTrackingId);
+                    }
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_TRANSFERRED_CASE.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_TRANSFERRED_CASE;
+                        errorText = string.Format("Case #  {0} is transferred.!!!!", caseTrackingId);
+                    }
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_XML_BAD_NARKUP.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_XML_BAD_NARKUP;
+                        errorText = string.Format("XML Bad Morkup.!!!!", caseTrackingId);
+                    }
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_XML_NOT_FORMED.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_XML_NOT_FORMED;
+                        errorText = string.Format("XML Not Well formed.!!!!", caseTrackingId);
+                    }
+                    
                     response = new wmp.GetCaseResponse
                     (
                         getCaseResponse: new amc.GetCaseResponseType
@@ -75,7 +118,7 @@ namespace Arizona.Courts.Services.v20
                             CaseResponseMessage = new caseResponse.CaseResponseMessageType
                             {
                                 Case = null,
-                                Error = ecf.EcfHelper.ErrorList("-1" , string.Format( "Case #  {0} not found.!!!!" , caseTrackingId) ),
+                                Error = ecf.EcfHelper.ErrorList(errorCode ,  errorText ),
                                 CaseCourt = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseCourt != null ? getCaseRequest.CaseQueryMessage.CaseCourt : SampleCourts.CaseCourt,
                                 SendingMDELocationID = new nc.IdentificationType("http://courts.az.gov/eFiling/MockCRMDE"),
                                 SendingMDEProfileCode = "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0"

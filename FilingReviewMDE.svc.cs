@@ -23,6 +23,8 @@ using amp = Arizona.Courts.ExChanges.v20;
 using aoc = Arizona.Courts.Extensions.v20;
 using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20;
+using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
+using core = Oasis.LegalXml.CourtFiling.v40.Core;
 
 namespace Arizona.Courts.Services.v20
 {
@@ -30,7 +32,7 @@ namespace Arizona.Courts.Services.v20
     public class FilingReviewMDE : IFilingReviewMDE
     {
 
-        public ReviewFilingResponse ReviewFiling(ReviewFilingRequest reviewFilingRequest)
+        public ReviewFilingResponse ReviewFiling(wmp.ReviewFilingRequest reviewFilingRequest)
         {
             ReviewFilingResponse response = new ReviewFilingResponse
             {
@@ -81,31 +83,29 @@ namespace Arizona.Courts.Services.v20
             return response;
         }
 
-        private string SaveReviewFilingXML(ReviewFilingRequest reviewFilingRequest)
+        private string SaveReviewFilingXML(wmp.ReviewFilingRequest reviewFilingRequest)
         {
             string cmsConformationNumber = string.Empty;
+            core.CoreFilingMessageType coreFilingMessage = reviewFilingRequest != null ? reviewFilingRequest.CoreFilingMessage : null;
+            aoc.CoreFilingMessageType filingMessage = coreFilingMessage != null && coreFilingMessage is aoc.CoreFilingMessageType ? coreFilingMessage as aoc.CoreFilingMessageType : null;
 
-            if (reviewFilingRequest != null && reviewFilingRequest.ReviewFilingRequestMessageObject != null && reviewFilingRequest.ReviewFilingRequestMessageObject is amp.ReviewFilingRequestType)
+            if (filingMessage != null)
             {
-                aoc.CoreFilingMessageType coreFilingMessage = (reviewFilingRequest.ReviewFilingRequestMessageObject as amp.ReviewFilingRequestType).CoreFilingMessage;
-                    // requestId is Portal Unique Identification # 
-                    long requestId = -1;
-                    long.TryParse(coreFilingMessage.DocumentIdentification[0].IdentificationID[0].ToString(), out requestId);
-                    if (requestId > 0)
+                string submissionId = ecf.EcfHelper.GetIdentificationValue(filingMessage.DocumentIdentification, "SubmissionID");
+                if (!string.IsNullOrWhiteSpace(submissionId))
+                {
+                    string recordFilingFilesSaveFolder = @"c:\temp" ;
+                    string serializedFileName = Path.Combine(recordFilingFilesSaveFolder, submissionId + ".xml");
+                    if (File.Exists(serializedFileName)) File.Delete(serializedFileName);
+                    using (FileStream fs = new FileStream(serializedFileName, FileMode.CreateNew, FileAccess.Write))
                     {
-                        string recordFilingFilesSaveFolder = @"c:\temp" ;
-                        string serializedFileName = Path.Combine(recordFilingFilesSaveFolder, requestId + ".xml");
-
-                        if (File.Exists(serializedFileName)) File.Delete(serializedFileName);
-                        using (FileStream fs = new FileStream(serializedFileName, FileMode.CreateNew, FileAccess.Write))
-                        {
-                            XmlSerializer serializer = new XmlSerializer(typeof(ReviewFilingRequest));
+                            XmlSerializer serializer = new XmlSerializer(typeof(wmp.ReviewFilingRequest));
                             serializer.Serialize(fs, reviewFilingRequest);
                             fs.Flush();
-                            cmsConformationNumber = DateTime.Now.ToString("yyyyMMddHHmmss") + "_" + requestId.ToString();
-                        }
+                            cmsConformationNumber = DateTime.Now.ToString("yyyyMMddHHmmss") + "_" + submissionId.ToString();
                     }
-             }
+                }
+            }
             return cmsConformationNumber;
         }
 
