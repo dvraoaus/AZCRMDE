@@ -25,7 +25,7 @@ using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20;
 using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 using core = Oasis.LegalXml.CourtFiling.v40.Core;
-
+using System.Configuration;
 namespace Arizona.Courts.Services.v20
 {
     [ServiceBehavior(Name = "FilingReviewMDEService", Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
@@ -94,8 +94,12 @@ namespace Arizona.Courts.Services.v20
                 string submissionId = ecf.EcfHelper.GetIdentificationValue(filingMessage.DocumentIdentification, "SubmissionID");
                 if (!string.IsNullOrWhiteSpace(submissionId))
                 {
-                    string recordFilingFilesSaveFolder = @"c:\temp" ;
-                    string serializedFileName = Path.Combine(recordFilingFilesSaveFolder, submissionId + ".xml");
+                    string reviewFilingFilesSaveFolder = ConfigurationManager.AppSettings["reviewFilingFilesSaveFolder"];
+                    if (string.IsNullOrWhiteSpace(reviewFilingFilesSaveFolder) || !Directory.Exists(reviewFilingFilesSaveFolder))
+                    {
+                        reviewFilingFilesSaveFolder = Path.GetTempPath();
+                    }
+                    string serializedFileName = Path.Combine(reviewFilingFilesSaveFolder, submissionId + ".xml");
                     if (File.Exists(serializedFileName)) File.Delete(serializedFileName);
                     using (FileStream fs = new FileStream(serializedFileName, FileMode.CreateNew, FileAccess.Write))
                     {
