@@ -18,15 +18,15 @@ using Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 
 namespace Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile
 {
-    [ServiceContract(Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0", Name = "CourtRecordMDEPort"   )]
+    [ServiceContract(Namespace = "http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/CRMDEServic", Name = "CourtRecordMDEPort")]
     [XmlSerializerFormat(Style = OperationFormatStyle.Document, Use = OperationFormatUse.Literal )]
-    public interface ICCICourtRecordMDE
+    public interface ICourtRecordMDE
     {
         [OperationContract() ]
         [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
         RecordFilingResponse RecordFiling(RecordFilingRequest recordFilingRequest);
 
-        [OperationContract()]
+        [OperationContract( Action="http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/CRMDEService/GetCase" )]
         [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
         GetCaseResponse GetCase(GetCaseRequest getCaseRequest);
 
@@ -38,7 +38,7 @@ namespace Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile
         [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
         GetServiceInformationResponse GetServiceInformation(GetServiceInformationRequest getServiceInformationRequest);
 
-        [OperationContract()]
+        [OperationContract(Action = "http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/CRMDEService/GetDocument")]
         [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
         GetDocumentResponse GetDocument(GetDocumentRequest getDocumentRequest);
 

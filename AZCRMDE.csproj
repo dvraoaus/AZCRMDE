@@ -66,6 +66,7 @@
     <Compile Include="FaultContract.cs">
       <DependentUpon>FaultContract.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ICCICourtRecordMDE.cs" />
     <Compile Include="ICourtRecordMDE.cs" />
     <Compile Include="IFilingReviewMDE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
