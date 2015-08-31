@@ -13,34 +13,29 @@
 	*/
 
 using System.ServiceModel;
-using Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
+using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 
 
-namespace Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile
+namespace Arizona.Courts.Services.v20
 {
     [ServiceContract(Namespace = "http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/CRMDEServic", Name = "CourtRecordMDEPort")]
-    [XmlSerializerFormat(Style = OperationFormatStyle.Document, Use = OperationFormatUse.Literal )]
+    [XmlSerializerFormat(Style = OperationFormatStyle.Document, Use = OperationFormatUse.Literal)]
     public interface ICourtRecordMDE
     {
-        [OperationContract() ]
-        [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
-        RecordFilingResponse RecordFiling(RecordFilingRequest recordFilingRequest);
+        [OperationContract()]
+        wmp.RecordFilingResponse RecordFiling(wmp.RecordFilingRequest recordFilingRequest);
 
-        [OperationContract( Action="http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/CRMDEService/GetCase" )]
-        [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
-        GetCaseResponse GetCase(GetCaseRequest getCaseRequest);
+        [OperationContract(Action = "http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/CRMDEService/GetCase")]
+        wmp.GetCaseResponse GetCase(wmp.GetCaseRequest getCaseRequest);
 
         [OperationContract()]
-        [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
-        GetCaseListResponse GetCaseList(GetCaseListRequest getCaseListRequest);
+        wmp.GetCaseListResponse GetCaseList(wmp.GetCaseListRequest getCaseListRequest);
 
         [OperationContract()]
-        [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
-        GetServiceInformationResponse GetServiceInformation(GetServiceInformationRequest getServiceInformationRequest);
+        wmp.GetServiceInformationResponse GetServiceInformation(wmp.GetServiceInformationRequest getServiceInformationRequest);
 
         [OperationContract(Action = "http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/CRMDEService/GetDocument")]
-        [FaultContract(typeof(Arizona.Courts.Extensions.v20.OperationExceptionType))]
-        GetDocumentResponse GetDocument(GetDocumentRequest getDocumentRequest);
+        wmp.GetDocumentResponse GetDocument(wmp.GetDocumentRequest getDocumentRequest);
 
     }
 }

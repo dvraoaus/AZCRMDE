@@ -25,12 +25,13 @@ using caseResponse = Oasis.LegalXml.CourtFiling.v40.CaseResponse;
 using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20;
 using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
+using azs = Arizona.Courts.Services.v20;
 
 
 namespace Arizona.Courts.Services.v20
 {
     [ServiceBehavior(Name = "CourtRecordMDEService", Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
-    public class CourtRecordMDE : wmp.ICourtRecordMDE
+    public class CourtRecordMDE : azs.ICourtRecordMDE
     {
         
         public wmp.RecordFilingResponse RecordFiling(wmp.RecordFilingRequest recordFilingRequest)
