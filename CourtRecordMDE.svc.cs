@@ -259,9 +259,22 @@ namespace Arizona.Courts.Services.v20
             };
             try
             {
+                string caseTrackingId = getDocumentRequest != null && getDocumentRequest.DocumentQueryMessage != null && getDocumentRequest.DocumentQueryMessage.CaseTrackingID != null && !string.IsNullOrEmpty(getDocumentRequest.DocumentQueryMessage.CaseTrackingID.Value) ? getDocumentRequest.DocumentQueryMessage.CaseTrackingID.Value : string.Empty;
+                string docketId = getDocumentRequest != null && getDocumentRequest.DocumentQueryMessage != null && getDocumentRequest.DocumentQueryMessage.CaseDocketID != null && !string.IsNullOrEmpty(getDocumentRequest.DocumentQueryMessage.CaseDocketID.Value) ? getDocumentRequest.DocumentQueryMessage.CaseDocketID.Value : string.Empty;
 
-                response.DocumentResponseMessage.Document = SampleDocuments.AZDocument;
-                response.DocumentResponseMessage.Error = ecf.EcfHelper.QuerySuccessfull();
+                wmp.GetDocumentResponse fetchResponse = this.GetDocument(docketId);
+                if (fetchResponse != null)
+                {
+                    response = fetchResponse;
+                }
+                else
+                {
+                    response.DocumentResponseMessage.Document = null;
+                    response.DocumentResponseMessage.Error = new System.Collections.Generic.List<ecf.ErrorType>
+                    {
+                        new ecf.ErrorType { ErrorCode = new nc.TextType("-31") , ErrorText = new nc.TextType( "Other Errror")}
+                    } ;
+                }
 
             }
             catch (Exception ex)
@@ -273,6 +286,26 @@ namespace Arizona.Courts.Services.v20
                         new FaultCode("OTHER")
                     );
 
+            }
+            return response;
+        }
+
+        private wmp.GetDocumentResponse GetDocument(string docketId)
+        {
+            wmp.GetDocumentResponse response = null;
+            if (!string.IsNullOrEmpty(docketId))
+            {
+
+                string caseXmlFile = GetApplicationPath() + @"\SampleDocuments\" + docketId + ".xml";
+                if (File.Exists(caseXmlFile))
+                {
+                    using (var fs = new FileStream(caseXmlFile, FileMode.Open, FileAccess.Read))
+                    {
+                        XmlSerializer serializer = new XmlSerializer(typeof(wmp.GetDocumentResponse));
+                        response = serializer.Deserialize(fs) as wmp.GetDocumentResponse;
+                    }
+
+                }
             }
             return response;
         }
