@@ -111,7 +111,17 @@ namespace Arizona.Courts.Services.v20
                         errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_XML_NOT_FORMED;
                         errorText = string.Format("XML Not Well formed.!!!!", caseTrackingId);
                     }
-                    
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_DELETED_CASE.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_DELETED_CASE;
+                        errorText = string.Format("Deleted");
+                    }
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CLOSED_CASE.Substring(1)))
+                    {
+                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CLOSED_CASE;
+                        errorText = string.Format("Closed");
+                    }
+
                     response = new wmp.GetCaseResponse
                     (
                         getCaseResponse: new amc.GetCaseResponseType
