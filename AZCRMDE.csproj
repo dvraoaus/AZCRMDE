@@ -40,9 +40,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Oasis.LegalXml.CourtFiling.v5.2, Version=5.2.0.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
+    <Reference Include="Oasis.LegalXml.CourtFiling.v5.3, Version=5.3.0.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\development\eUniversa1\5.2\CompiledAssemblies\Oasis.LegalXml.CourtFiling.v5.2.dll</HintPath>
+      <HintPath>..\..\development\eUniversa1\5.3\CompiledAssemblies\Oasis.LegalXml.CourtFiling.v5.3.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
