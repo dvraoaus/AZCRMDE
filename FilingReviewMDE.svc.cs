@@ -9,23 +9,23 @@
 	'=======================================================================
 	'   Author(s)       Date        Control/Procedure       Change
 	'=======================================================================
+    '   Rao 01/28/2017 Removed unused usings
     =======================================================================
 	*/
 
 using Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.Xml.Serialization;
-using amp = Arizona.Courts.ExChanges.v20;
 using aoc = Arizona.Courts.Extensions.v20;
+using core = Oasis.LegalXml.CourtFiling.v40.Core;
 using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20;
 using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
-using core = Oasis.LegalXml.CourtFiling.v40.Core;
-using System.Configuration;
 namespace Arizona.Courts.Services.v20
 {
     [ServiceBehavior(Name = "FilingReviewMDEService", Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
