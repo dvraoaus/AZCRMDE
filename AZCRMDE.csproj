@@ -43,6 +43,12 @@
     <Reference Include="Oasis.LegalXml.CourtFiling.v5.3.5, Version=5.3.5.0.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\development\eUniversa1\5.3.5\CompiledAssemblies\Oasis.LegalXml.CourtFiling.v5.3.5.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oasis.LegalXml.CourtFiling30.v5.3.5, Version=5.3.5.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\development\eUniversa1\5.3.5\CompiledAssemblies\Oasis.LegalXml.CourtFiling30.v5.3.5.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -52,16 +58,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FilingReviewMDE.svc" />
     <Content Include="CourtRecordMDE.svc" />
+    <Content Include="FilingReviewMDE.svc" />
+    <Content Include="MCCourtRecordMDE.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FilingReviewMDE.svc.cs">
-      <DependentUpon>FilingReviewMDE.svc</DependentUpon>
+    <Compile Include="..\..\Samples2017\MCTests\IMCCourtRecordMDE.cs">
+      <Link>IMCCourtRecordMDE.cs</Link>
     </Compile>
     <Compile Include="CourtRecordMDE.svc.cs">
       <DependentUpon>CourtRecordMDE.svc</DependentUpon>
+    </Compile>
+    <Compile Include="FilingReviewMDE.svc.cs">
+      <DependentUpon>FilingReviewMDE.svc</DependentUpon>
+    </Compile>
+    <Compile Include="MCCourtRecordMDE.svc.cs">
+      <DependentUpon>MCCourtRecordMDE.svc</DependentUpon>
     </Compile>
     <Compile Include="FaultContract.cs">
       <DependentUpon>FaultContract.xsd</DependentUpon>
