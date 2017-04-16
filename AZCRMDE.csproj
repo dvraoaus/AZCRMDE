@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CourtRecordMDE.svc" />
+    <Content Include="FilingAssemblyMDE.svc" />
     <Content Include="FilingReviewMDE.svc" />
     <Content Include="MCCourtRecordMDE.svc" />
     <Content Include="Web.config" />
@@ -70,9 +71,13 @@
     <Compile Include="CourtRecordMDE.svc.cs">
       <DependentUpon>CourtRecordMDE.svc</DependentUpon>
     </Compile>
+    <Compile Include="FilingAssemblyMDE.svc.cs">
+      <DependentUpon>FilingAssemblyMDE.svc</DependentUpon>
+    </Compile>
     <Compile Include="FilingReviewMDE.svc.cs">
       <DependentUpon>FilingReviewMDE.svc</DependentUpon>
     </Compile>
+    <Compile Include="IFilingAssemblyMDE.cs" />
     <Compile Include="MCCourtRecordMDE.svc.cs">
       <DependentUpon>MCCourtRecordMDE.svc</DependentUpon>
     </Compile>
