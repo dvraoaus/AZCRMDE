@@ -77,7 +77,6 @@
     <Compile Include="FilingReviewMDE.svc.cs">
       <DependentUpon>FilingReviewMDE.svc</DependentUpon>
     </Compile>
-    <Compile Include="IFilingAssemblyMDE.cs" />
     <Compile Include="MCCourtRecordMDE.svc.cs">
       <DependentUpon>MCCourtRecordMDE.svc</DependentUpon>
     </Compile>
