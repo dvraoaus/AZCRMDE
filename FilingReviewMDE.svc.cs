@@ -29,7 +29,7 @@ using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 namespace Arizona.Courts.Services.v20
 {
     [ServiceBehavior(Name = "FilingReviewMDEService", Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
-    public class FilingReviewMDE : IFilingReviewMDE
+    public class FilingReviewMDE : wmp.IFilingReviewMDE
     {
 
         public ReviewFilingResponse ReviewFiling(wmp.ReviewFilingRequest reviewFilingRequest)
@@ -94,7 +94,7 @@ namespace Arizona.Courts.Services.v20
                 string submissionId = ecf.EcfHelper.GetIdentificationValue(filingMessage.DocumentIdentification, "SubmissionID");
                 if (!string.IsNullOrWhiteSpace(submissionId))
                 {
-                    string reviewFilingFilesSaveFolder = ConfigurationManager.AppSettings["reviewFilingFilesSaveFolder"];
+                    string reviewFilingFilesSaveFolder = ConfigurationManager.AppSettings["nfrcFilesSaveFolder"];
                     if (string.IsNullOrWhiteSpace(reviewFilingFilesSaveFolder) || !Directory.Exists(reviewFilingFilesSaveFolder))
                     {
                         reviewFilingFilesSaveFolder = Path.GetTempPath();
