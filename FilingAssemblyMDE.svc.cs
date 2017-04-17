@@ -102,7 +102,7 @@ namespace Arizona.Courts.Services.v20
                 string submissionId = ecf.EcfHelper.GetIdentificationValue(notifyFilingReviewCompleteRequest.ReviewFilingCallbackMessage[0].DocumentIdentification, "SubmissionID");
                 if (!string.IsNullOrWhiteSpace(submissionId))
                 {
-                    string reviewFilingFilesSaveFolder = ConfigurationManager.AppSettings["reviewFilingFilesSaveFolder"];
+                    string reviewFilingFilesSaveFolder = ConfigurationManager.AppSettings["nfrcFilesSaveFolder"];
                     if (string.IsNullOrWhiteSpace(reviewFilingFilesSaveFolder) || !Directory.Exists(reviewFilingFilesSaveFolder))
                     {
                         reviewFilingFilesSaveFolder = Path.GetTempPath();

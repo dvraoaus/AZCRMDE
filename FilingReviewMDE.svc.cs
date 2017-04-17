@@ -94,7 +94,7 @@ namespace Arizona.Courts.Services.v20
                 string submissionId = ecf.EcfHelper.GetIdentificationValue(filingMessage.DocumentIdentification, "SubmissionID");
                 if (!string.IsNullOrWhiteSpace(submissionId))
                 {
-                    string reviewFilingFilesSaveFolder = ConfigurationManager.AppSettings["nfrcFilesSaveFolder"];
+                    string reviewFilingFilesSaveFolder = ConfigurationManager.AppSettings["reviewFilingFilesSaveFolder"];
                     if (string.IsNullOrWhiteSpace(reviewFilingFilesSaveFolder) || !Directory.Exists(reviewFilingFilesSaveFolder))
                     {
                         reviewFilingFilesSaveFolder = Path.GetTempPath();
