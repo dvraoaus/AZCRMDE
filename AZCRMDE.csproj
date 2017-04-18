@@ -40,6 +40,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Web.Services2, Version=2.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\development\eUniversa1\5.4\ExternalAssemblies\Microsoft.Web.Services2.dll</HintPath>
+    </Reference>
     <Reference Include="Oasis.LegalXml.CourtFiling.v5.4, Version=5.4.0.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\development\eUniversa1\5.4\CompiledAssemblies\Oasis.LegalXml.CourtFiling.v5.4.dll</HintPath>
@@ -55,6 +59,7 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +68,7 @@
     <Content Include="FilingReviewMDE.svc" />
     <Content Include="MCCourtRecordMDE.svc" />
     <Content Include="Web.config" />
+    <Content Include="MCFRMDEMock.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\Samples2017\MCTests\IMCCourtRecordMDE.cs">
@@ -90,6 +96,10 @@
     <Compile Include="SampleDocuments.cs" />
     <Compile Include="SampleCivilCases.cs" />
     <Compile Include="SampleCourts.cs" />
+    <Compile Include="MCFRMDEMock.asmx.cs">
+      <DependentUpon>MCFRMDEMock.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
