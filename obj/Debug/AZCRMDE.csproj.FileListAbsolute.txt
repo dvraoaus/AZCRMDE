@@ -3,4 +3,5 @@ C:\Samples2015\AZCRMDE\bin\AZCRMDE.dll
 C:\Samples2015\AZCRMDE\bin\AZCRMDE.pdb
 C:\Samples2015\AZCRMDE\obj\Debug\AZCRMDE.dll
 C:\Samples2015\AZCRMDE\obj\Debug\AZCRMDE.pdb
+C:\Samples2015\AZCRMDE\bin\Microsoft.Web.Services2.dll
 C:\Samples2015\AZCRMDE\obj\Debug\AZCRMDE.csprojResolveAssemblyReference.cache

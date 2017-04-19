@@ -9,6 +9,10 @@ using System.Configuration;
 using System.IO;
 using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using wse2 = Microsoft.Web.Services2;
+using System.Xml;
+using System.Xml.Serialization;
+using ecf31 = Oasis.LegalXml.v31.CourtFiling;
+
 namespace Arizona.Courts.Services.v20
 {
     /// <summary>
@@ -147,8 +151,14 @@ namespace Arizona.Courts.Services.v20
                 
                 if (!string.IsNullOrWhiteSpace(ReviewFilingRequest))
                 {
-                    string submissionID = "100";
-                    string savedFileName = Path.Combine(GetSaveFolder(), "FilingMessages") + @"\" + submissionID + ".xml";
+                    string submissionID = GetSubmissionNumber(ReviewFilingRequest);
+                    string filingMessagesFolder = Path.Combine(GetSaveFolder(), "FilingMessages");
+                    if (!Directory.Exists(filingMessagesFolder))
+                    {
+                        Directory.CreateDirectory(filingMessagesFolder);
+                    }
+
+                    string savedFileName = filingMessagesFolder + @"\" + submissionID + ".xml";
                     if (File.Exists(savedFileName))
                     {
                         File.Delete(savedFileName);
@@ -170,5 +180,31 @@ namespace Arizona.Courts.Services.v20
             return reviewFilingResponse;
         }
 
+        private string GetSubmissionNumber(string ReviewFilingRequest)
+        {
+            string submissionNumber = string.Empty;
+            XmlSerializer coreFilingMessageSerializer = null;
+            XmlSerializerNamespaces coreFilingMessageNamespaces = null;
+            ecf31.CoreFilingMessageType coreFilingMessage = null;
+            if (coreFilingMessageSerializer == null)
+            {
+                coreFilingMessageNamespaces = new XmlSerializerNamespaces();
+                coreFilingMessageNamespaces.Add("message", "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageTypes-3.0");
+                coreFilingMessageNamespaces.Add("jxdm", "http://www.it.ojp.gov/jxdm/3.0.3");
+                coreFilingMessageNamespaces.Add("common", "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-3.0");
+                coreFilingMessageNamespaces.Add("urn", "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CoreFilingMessage-3.0");
+                coreFilingMessageSerializer = new XmlSerializer(typeof(ecf31.CoreFilingMessageType));
+            }
+            using (TextReader reader = new StringReader(ReviewFilingRequest))
+            {
+                coreFilingMessage = coreFilingMessageSerializer.Deserialize(reader) as ecf31.CoreFilingMessageType;
+            }
+            if (coreFilingMessage != null && coreFilingMessage.FilingID != null && coreFilingMessage.FilingID.ID != null && !string.IsNullOrWhiteSpace(coreFilingMessage.FilingID.ID.Value))
+            {
+                submissionNumber = coreFilingMessage.FilingID.ID.Value;
+            }
+            if (string.IsNullOrWhiteSpace(submissionNumber)) submissionNumber = ecf.EcfHelper.UUID; 
+            return submissionNumber;
+        }
     }
 }
