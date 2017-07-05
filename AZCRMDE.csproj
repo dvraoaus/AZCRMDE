@@ -42,16 +42,16 @@
   <ItemGroup>
     <Reference Include="Microsoft.Web.Services2, Version=2.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\development\eUniversa1\5.4\ExternalAssemblies\Microsoft.Web.Services2.dll</HintPath>
+      <HintPath>..\..\development\eUniversa1\5.4.5\ExternalAssemblies\Microsoft.Web.Services2.dll</HintPath>
     </Reference>
-    <Reference Include="Oasis.LegalXml.CourtFiling.v5.4, Version=5.4.0.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
+    <Reference Include="Oasis.LegalXml.CourtFiling.v5.4.5, Version=5.4.5.0.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\development\eUniversa1\5.4\CompiledAssemblies\Oasis.LegalXml.CourtFiling.v5.4.dll</HintPath>
+      <HintPath>..\..\development\eUniversa1\5.4.5\CompiledAssemblies\Oasis.LegalXml.CourtFiling.v5.4.5.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Oasis.LegalXml.CourtFiling30.v5.4, Version=5.4.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
+    <Reference Include="Oasis.LegalXml.CourtFiling30.v5.4.5, Version=5.4.5.0, Culture=neutral, PublicKeyToken=85d43299895e833b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\development\eUniversa1\5.4\CompiledAssemblies\Oasis.LegalXml.CourtFiling30.v5.4.dll</HintPath>
+      <HintPath>..\..\development\eUniversa1\5.4.5\CompiledAssemblies\Oasis.LegalXml.CourtFiling30.v5.4.5.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
