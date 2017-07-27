@@ -39,14 +39,34 @@ namespace Arizona.Courts.Services.v20
         {
             wmp.NotifyFilingReviewCompleteResponse response = new wmp.NotifyFilingReviewCompleteResponse
             {
-                 MessageReceiptMessage = new Oasis.LegalXml.CourtFiling.v40.Message.MessageReceiptMessageType
-                 {
-                    SendingMDELocationID = new  nc.IdentificationType("http:/efsp.other.com/aoc/efiling/FAMDE") ,
-                    SendingMDEProfileCode =  nc.Constants.ECF4_WEBSERVICES_SIP_CODE ,
-                    CaseCourt = null
-                 }
+                
+                NotifyFilingReviewCompleteResponseMessageObject = new amc.NotifyFilingReviewCompleteResponseWrapperType
+                {
+                    NotifyFilingReviewCompleteResponse = new amc.NotifyFilingReviewCompleteResponseType
+                    {
+                        MessageReceiptMessage = new Oasis.LegalXml.CourtFiling.v40.Message.MessageReceiptMessageType
+                        {
+                            SendingMDELocationID = new nc.IdentificationType("http:/efsp.other.com/aoc/efiling/FAMDE"),
+                            SendingMDEProfileCode = nc.Constants.ECF4_WEBSERVICES_SIP_CODE,
+                            CaseCourt = null
+                        }
 
-            } ;
+                    }
+                }
+                /*
+                NotifyFilingReviewCompleteResponseMessageObject = new amc.NotifyFilingReviewCompleteResponseType
+                {
+                    MessageReceiptMessage = new Oasis.LegalXml.CourtFiling.v40.Message.MessageReceiptMessageType
+                    {
+                        // SendingMDELocationID = new nc.IdentificationType("http:/efsp.other.com/aoc/efiling/FAMDE"),
+                        // SendingMDEProfileCode = nc.Constants.ECF4_WEBSERVICES_SIP_CODE,
+                        // CaseCourt = null
+                    }
+
+                } 
+                */
+
+            };
 
             try
             {
@@ -63,10 +83,10 @@ namespace Arizona.Courts.Services.v20
 
                 if (!string.IsNullOrEmpty(confirmationId))
                 {
-                    response.MessageReceiptMessage.DocumentIdentification = new List<nc.IdentificationType>
-                    {
-                         new nc.IdentificationType(confirmationId) 
-                    };
+                    //response.MessageReceiptMessage.DocumentIdentification = new List<nc.IdentificationType>
+                    //{
+                    //     new nc.IdentificationType(confirmationId) 
+                    //};
                     response.MessageReceiptMessage.Error = ecf.EcfHelper.QuerySuccessfull();
                 }
                 else
