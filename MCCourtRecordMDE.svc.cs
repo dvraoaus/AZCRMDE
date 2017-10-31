@@ -29,13 +29,103 @@ namespace Arizona.Courts.Services.v20
     public class MCCourtRecordMDE : azs.IMCCourtRecordMDE
     {
 
-        public System.Xml.XmlNode GetDocument(System.Xml.XmlNode DocumentRequestXml)
+        public GetDocumentResponse GetDocument(GetDocumentRequest request)
         {
-            System.Xml.XmlNode response = null;
+            azs.GetDocumentResponse response = new azs.GetDocumentResponse();
+            try
+            {
+                string docketId = request != null && request.DocumentQueryMessage != null &&
+                                  request.DocumentQueryMessage.DocumentID != null &&
+                                  request.DocumentQueryMessage.DocumentID.ID != null &&
+                                  !string.IsNullOrWhiteSpace(request.DocumentQueryMessage.DocumentID.ID.Value) ?
+                                  request.DocumentQueryMessage.DocumentID.ID.Value :
+                                  string.Empty;
+
+                ecf31.DocumentResponseMessageType documentResponseMessage = this.GetDocumentResponse(docketId);
+                if (documentResponseMessage != null)
+                {
+                    response = new azs.GetDocumentResponse { DocumentResponseMessage = documentResponseMessage };
+                }
+                else if (documentResponseMessage == null)
+                {
+                    string errorCode = "-10";
+                    string errorText = string.Empty;
+                    documentResponseMessage = new ecf31.DocumentResponseMessageType
+                    {
+                        Error = new System.Collections.Generic.List<ecf31.ErrorType>
+                        {
+                            new ecf31.ErrorType
+                            {
+                                ErrorCode = new ecf31.PolicyDefinedCodeTextType { Value = errorCode },
+                                ErrorText = new Gjxdm.TextType { Value = errorText }
+                            }
+                         }
+                    };
+
+                    response = new azs.GetDocumentResponse { DocumentResponseMessage = documentResponseMessage };
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException<aoc.OperationExceptionType>
+                    (
+                        new aoc.OperationExceptionType { Operation = "GetDocument", ExceptionDetail = ex.Message },
+                        new FaultReason(ex.Message),
+                        new FaultCode("OTHER")
+                    );
+
+            }
 
             return response;
+
         }
 
+        public GetDocumentBytesResponse GetDocumentBytes(GetDocumentBytesRequest request)
+        {
+            azs.GetDocumentBytesResponse response = new azs.GetDocumentBytesResponse();
+            try
+            {
+
+                string caseTrackingId = request != null &&
+                                        !string.IsNullOrWhiteSpace(request.CaseNumber) ?
+                                        request.CaseNumber: 
+                                        string.Empty;
+                string docketeId = request != null && !string.IsNullOrWhiteSpace(request.encodedDocId) ? request.encodedDocId : string.Empty;
+                response.GetDocumentBytesResult = this.GetDocument(docketeId);
+
+            }
+            catch (Exception ex)
+            {
+                throw new FaultException<aoc.OperationExceptionType>
+                    (
+                        new aoc.OperationExceptionType { Operation = "GetDocumentBytes", ExceptionDetail = ex.Message },
+                        new FaultReason(ex.Message),
+                        new FaultCode("OTHER")
+                    );
+
+            }
+
+            return response;
+
+
+        }
+
+        private byte[]  GetDocument(string docketId)
+        {
+            byte[] documentByes = null;
+            if (!string.IsNullOrEmpty(docketId))
+            {
+
+                string pdfFile = GetApplicationPath() + @"\SampleDocuments\" + docketId + ".pdf";
+                if (File.Exists(pdfFile))
+                {
+                    documentByes = File.ReadAllBytes(pdfFile);
+                }
+            }
+            return documentByes;
+        }
 
         public azs.GetCaseResponse GetCase(azs.GetCaseRequest getCaseRequest)
         {
@@ -143,73 +233,27 @@ namespace Arizona.Courts.Services.v20
         }
 
 
-        /*
 
-
-        public wmp.GetDocumentResponse GetDocument(wmp.GetDocumentRequest getDocumentRequest)
+        private ecf31.DocumentResponseMessageType GetDocumentResponse(string docketId)
         {
-            wmp.GetDocumentResponse response = new wmp.GetDocumentResponse
-            {
-                DocumentResponseMessage = new  Oasis.LegalXml.CourtFiling.v40.DocumentResponse.DocumentResponseMessageType
-                {
-                    SendingMDELocationID = new nc.IdentificationType("http:/courts.az.gov/aoc/efiling/CRMDE"),
-                    SendingMDEProfileCode = nc.Constants.ECF4_WEBSERVICES_SIP_CODE,
-                    CaseCourt = getDocumentRequest != null && getDocumentRequest.DocumentQueryMessage != null ? getDocumentRequest.DocumentQueryMessage.CaseCourt : null
-
-                }
-            };
-            try
-            {
-                string caseTrackingId = getDocumentRequest != null && getDocumentRequest.DocumentQueryMessage != null && getDocumentRequest.DocumentQueryMessage.CaseTrackingID != null && !string.IsNullOrEmpty(getDocumentRequest.DocumentQueryMessage.CaseTrackingID.Value) ? getDocumentRequest.DocumentQueryMessage.CaseTrackingID.Value : string.Empty;
-                string docketId = getDocumentRequest != null && getDocumentRequest.DocumentQueryMessage != null && getDocumentRequest.DocumentQueryMessage.CaseDocketID != null && !string.IsNullOrEmpty(getDocumentRequest.DocumentQueryMessage.CaseDocketID.Value) ? getDocumentRequest.DocumentQueryMessage.CaseDocketID.Value : string.Empty;
-
-                wmp.GetDocumentResponse fetchResponse = this.GetDocument(docketId);
-                if (fetchResponse != null)
-                {
-                    response = fetchResponse;
-                }
-                else
-                {
-                    response.DocumentResponseMessage.Document = null;
-                    response.DocumentResponseMessage.Error = new System.Collections.Generic.List<ecf.ErrorType>
-                    {
-                        new ecf.ErrorType { ErrorCode = new nc.TextType("-31") , ErrorText = new nc.TextType( "Other Errror")}
-                    } ;
-                }
-
-            }
-            catch (Exception ex)
-            {
-                throw new FaultException<aoc.OperationExceptionType>
-                    (
-                        new aoc.OperationExceptionType { Operation = "GetDocument", ExceptionDetail = ex.Message },
-                        new FaultReason(ex.Message),
-                        new FaultCode("OTHER")
-                    );
-
-            }
-            return response;
-        }
-
-        private wmp.GetDocumentResponse GetDocument(string docketId)
-        {
-            wmp.GetDocumentResponse response = null;
+            ecf31.DocumentResponseMessageType documentResponse = null;
             if (!string.IsNullOrEmpty(docketId))
             {
 
-                string caseXmlFile = GetApplicationPath() + @"\SampleDocuments\" + docketId + ".xml";
+                string caseXmlFile = GetApplicationPath() + @"\SampleCases\" + docketId + ".xml";
                 if (File.Exists(caseXmlFile))
                 {
                     using (var fs = new FileStream(caseXmlFile, FileMode.Open, FileAccess.Read))
                     {
-                        XmlSerializer serializer = new XmlSerializer(typeof(wmp.GetDocumentResponse));
-                        response = serializer.Deserialize(fs) as wmp.GetDocumentResponse;
+                        XmlSerializer serializer = new XmlSerializer(typeof(ecf31.DocumentResponseMessageType));
+                        documentResponse = serializer.Deserialize(fs) as ecf31.DocumentResponseMessageType;
                     }
 
                 }
             }
-            return response;
+            return documentResponse;
         }
-        */
+
+
     }
 }
