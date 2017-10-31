@@ -240,10 +240,10 @@ namespace Arizona.Courts.Services.v20
             if (!string.IsNullOrEmpty(docketId))
             {
 
-                string caseXmlFile = GetApplicationPath() + @"\SampleCases\" + docketId + ".xml";
-                if (File.Exists(caseXmlFile))
+                string documentXmlFile = GetApplicationPath() + @"\SampleDocuments\" + docketId + ".xml";
+                if (File.Exists(documentXmlFile))
                 {
-                    using (var fs = new FileStream(caseXmlFile, FileMode.Open, FileAccess.Read))
+                    using (var fs = new FileStream(documentXmlFile, FileMode.Open, FileAccess.Read))
                     {
                         XmlSerializer serializer = new XmlSerializer(typeof(ecf31.DocumentResponseMessageType));
                         documentResponse = serializer.Deserialize(fs) as ecf31.DocumentResponseMessageType;
