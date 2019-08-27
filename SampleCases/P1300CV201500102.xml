@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>In RE the Matter Of:
+JOSHUA DEAN THORNBURY
+
+</nc:CaseTitleText>
+  <nc:CaseCategoryText>C43</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P1300CV201500102</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateName>AOC.Domain.Core.Description</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Yavapai County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County Superior</j:CourtName>
+    </j:CaseCourt>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-04T12:50:27-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>MISCELLANEOUS: SENSITIVE DATA SHEET</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="cb25fd90-f650-4bd5-96a0-c71f5eddb2a9">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-04T12:50:27-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>MISCELLANEOUS: SENSITIVE DATA SHEET</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4378813</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-09T15:25:23-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>NOTICE: Hearing</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="e3096847-b358-41cf-96cc-04c3a136173b">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-09T15:25:23-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>NOTICE: Hearing</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4380877</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-04T12:50:27-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>PETITION: Name Change</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="ecda4067-9953-4844-807f-0fa0411cda25">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-04T12:50:27-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>PETITION: Name Change</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4378812</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-23T09:08:37-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>Minute Entry: Petition - Name Change</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="d4c1f1ce-5f1f-4f17-8634-61b5464de687">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-23T09:08:37-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>Minute Entry: Petition - Name Change</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4408877</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-23T09:08:37-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>ORDER: Name Change</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="f82bb0f5-f17d-4025-a7fc-96b9d53e0e10">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-23T09:08:37-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ORDER: Name Change</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4408879</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="d467b1ca-5ae6-40d1-8882-63eab1208df5" />
+      <ecf:CaseRepresentedPartyReference s:ref="a896bf77-2e20-4648-b830-dc68b2c2cbb7" />
+    </ecf:CaseOfficial>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="a896bf77-2e20-4648-b830-dc68b2c2cbb7">
+        <nc:PersonName>
+          <nc:PersonGivenName>JOSHUA</nc:PersonGivenName>
+          <nc:PersonMiddleName>DEAN</nc:PersonMiddleName>
+          <nc:PersonSurName>THORNBURY</nc:PersonSurName>
+          <nc:PersonFullName>JOSHUA DEAN THORNBURY</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3302824</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6412532</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourcePersonID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>9284998610</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>1855 N BITTERSWEET WAY</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>PRESCOTT VALLEY</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>86314</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>F</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="d467b1ca-5ae6-40d1-8882-63eab1208df5">
+        <nc:PersonName>
+          <nc:PersonGivenName />
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>IN PRO PER</nc:PersonSurName>
+          <nc:PersonFullName>IN PRO PER</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3302978</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceAttorneyID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="a590f6ca-869c-48ff-8ff0-6f41a0b033c6">
+        <nc:PersonName>
+          <nc:PersonGivenName>DAVID</nc:PersonGivenName>
+          <nc:PersonMiddleName>L</nc:PersonMiddleName>
+          <nc:PersonSurName>MACKEY</nc:PersonSurName>
+          <nc:PersonFullName>DAVID L MACKEY</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>1006</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceJudicialOfficerID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>J</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CV</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText />
+</aoc:CivilCase>

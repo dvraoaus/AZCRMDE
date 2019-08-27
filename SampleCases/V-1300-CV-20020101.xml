@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>Verde Valley Preservation Fund vs John Smith et al.</nc:CaseTitleText>
+  <nc:CaseCategoryText>CV</nc:CaseCategoryText>
+  <nc:CaseTrackingID>V-1300-CV-20020101</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86302</nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County  -  Prescott</j:CourtName>
+    </j:CaseCourt>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="ffcb9927-819f-4b20-8072-aa3b4947ed28" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>8912</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>State Bar of Arizona</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="e3cc7d5e-53ae-472d-92e6-9ff12418388e" />
+    </ecf:CaseOfficial>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="d09416f3-7e88-4eeb-a4a4-7b7fc700d673" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>1234567</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>State Bar of Arizona</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="d349585c-9a7e-434c-a9a4-0f9723ac92fa" />
+      <ecf:CaseRepresentedPartyReference s:ref="c1c56409-ca38-4159-ba2a-15c68fdc5d83" />
+    </ecf:CaseOfficial>
+    <aoc:CaseParticipant>
+      <aoc:EntityOrganization s:id="e3cc7d5e-53ae-472d-92e6-9ff12418388e">
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>2918329</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationName>Verde Valley Preservation Fund</nc:OrganizationName>
+        <j:OrganizationAugmentation />
+        <ecf:OrganizationAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>info@aztraves.inc</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>200 MLK Drive</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Tucson</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>857011367</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>5206281000</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:OrganizationAugmentation>
+        <aoc:OrganizationCategoryText>Business</aoc:OrganizationCategoryText>
+      </aoc:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="d349585c-9a7e-434c-a9a4-0f9723ac92fa">
+        <nc:PersonName>
+          <nc:PersonGivenName>John</nc:PersonGivenName>
+          <nc:PersonSurName>Smith</nc:PersonSurName>
+          <nc:PersonFullName>John Smith</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918341</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c1c56409-ca38-4159-ba2a-15c68fdc5d83">
+        <nc:PersonName>
+          <nc:PersonGivenName>Jane</nc:PersonGivenName>
+          <nc:PersonSurName>Smith</nc:PersonSurName>
+          <nc:PersonFullName>Jane Smith</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918342</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="ffcb9927-819f-4b20-8072-aa3b4947ed28">
+        <nc:PersonName>
+          <nc:PersonGivenName>Karen</nc:PersonGivenName>
+          <nc:PersonSurName>Jones</nc:PersonSurName>
+          <nc:PersonFullName>Karen Jones</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918351</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>kjones@tslaw.com</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>1000 Jason Lopez Cir</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Florence</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationPostalCode>85132</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>4081451441</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="d09416f3-7e88-4eeb-a4a4-7b7fc700d673">
+        <nc:PersonName>
+          <nc:PersonGivenName>Ruth</nc:PersonGivenName>
+          <nc:PersonMiddleName>Ann</nc:PersonMiddleName>
+          <nc:PersonSurName>Ginsberg</nc:PersonSurName>
+          <nc:PersonNameSuffixText>Esq</nc:PersonNameSuffixText>
+          <nc:PersonFullName>Ruth Ann Ginsberg Esq</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918352</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>rginsberg@gmail.com</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>15105 N Doubtful Canyon Dr</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Prescott</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationPostalCode>86305</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>6024565781</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>true</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CIVIL</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>DF2</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

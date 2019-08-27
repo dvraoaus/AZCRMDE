@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+          <CivilCase a:id="e57e50fe-e6e4-48c7-ad75-eb2eb5087bbe" xmlns="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:a="http://niem.gov/niem/structures/2.0">
+            <CaseTitleText xmlns="http://niem.gov/niem/niem-core/2.0">
+              In the Matter of the Estate of:
+              MARIANNE SWEET
+            </CaseTitleText>
+            <CaseCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">P32</CaseCategoryText>
+            <CaseTrackingID xmlns="http://niem.gov/niem/niem-core/2.0">P1300PB201400334</CaseTrackingID>
+            <CaseAugmentation xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+              <j:CaseCourt xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <nc:OrganizationIdentification>
+                  <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+                </nc:OrganizationIdentification>
+                <nc:OrganizationLocation>
+                  <nc:LocationAddress>
+                    <nc:StructuredAddress>
+                      <nc:LocationStreet>
+                        <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+                      </nc:LocationStreet>
+                      <nc:LocationCityName>Prescott</nc:LocationCityName>
+                      <nc:LocationStateName>AZ</nc:LocationStateName>
+                      <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                      <nc:LocationPostalCode>86301</nc:LocationPostalCode>
+                    </nc:StructuredAddress>
+                  </nc:LocationAddress>
+                  <nc:LocationName>Yavapai County Superior</nc:LocationName>
+                </nc:OrganizationLocation>
+                <j:CourtName>Yavapai County Superior</j:CourtName>
+              </j:CaseCourt>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-22T08:13:52-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>10215</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="ddaaebfc-d580-43cc-971c-d166a0c6faa8" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-22T08:13:52-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / AFFIDAVIT: OF SUCCESSION TO REAL PROPERTY 12/22/2014 8:13:52 AM / AFFIDAVIT: OF SUCCESSION TO REAL PROPERTY 12/22/2014 8:13:52 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4352629</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText>Restricted</nc:DocumentDescriptionText>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-23T12:16:32-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>1001415</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="f51c9cd1-bab2-4815-b22f-f35d33683e67" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-23T12:16:32-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / Notice: Compliance 12/23/2014 12:16:32 PM / Notice: Compliance 12/23/2014 12:16:32 PM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353029</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+            </CaseAugmentation>
+            <CaseAugmentation>
+              <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                <ecf:EntityPerson s:id="afadc0bf-5952-432e-a1e8-211571726cf9">
+                  <nc:PersonName>
+                    <nc:PersonGivenName>MARIANNE</nc:PersonGivenName>
+                    <nc:PersonMiddleName/>
+                    <nc:PersonSurName>SWEET</nc:PersonSurName>
+                    <nc:PersonFullName>MARIANNE SWEET</nc:PersonFullName>
+                  </nc:PersonName>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>3298918</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>6410898</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                </ecf:EntityPerson>
+                <ecf:CaseParticipantRoleCode>U</ecf:CaseParticipantRoleCode>
+              </aoc:CaseParticipant>
+              <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                <ecf:EntityPerson s:id="d62c4f05-edaf-4993-a777-cff327d7dd4e">
+                  <nc:PersonName>
+                    <nc:PersonGivenName>LEROY</nc:PersonGivenName>
+                    <nc:PersonMiddleName>C</nc:PersonMiddleName>
+                    <nc:PersonSurName>SWEET</nc:PersonSurName>
+                    <nc:PersonFullName>LEROY C SWEET</nc:PersonFullName>
+                  </nc:PersonName>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>3298917</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>6410897</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <ecf:PersonAugmentation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>9495 SOUTH 1400 EAST</nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>SANDY</nc:LocationCityName>
+                          <nc:LocationStateName>UT</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>84070</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                  </ecf:PersonAugmentation>
+                </ecf:EntityPerson>
+                <ecf:CaseParticipantRoleCode>AF</ecf:CaseParticipantRoleCode>
+              </aoc:CaseParticipant>
+            </CaseAugmentation>
+            <CauseOfActionCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0"/>
+            <ClassActionIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</ClassActionIndicator>
+            <JuryDemandIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</JuryDemandIndicator>
+            <ReliefTypeCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0"/>
+            <CaseGeneralCategoryText>PB</CaseGeneralCategoryText>
+          </CivilCase>
+        

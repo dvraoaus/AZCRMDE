@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+               <CivilCase a:id="b3671832-9fca-43cc-8d74-84065380dc69" xmlns="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:a="http://niem.gov/niem/structures/2.0">
+                  <CaseTitleText xmlns="http://niem.gov/niem/niem-core/2.0">JACQUI O'NEAL ET AL. VS. BENJAMIN ORRICK ET AL.</CaseTitleText>
+                  <CaseCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">Contract</CaseCategoryText>
+                  <CaseTrackingID xmlns="http://niem.gov/niem/niem-core/2.0">C20190021</CaseTrackingID>
+                  <CaseAugmentation xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+                     <j:CaseCourt xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <nc:OrganizationIdentification>
+                           <nc:IdentificationID>courts.az.gov:1000</nc:IdentificationID>
+                        </nc:OrganizationIdentification>
+                        <nc:OrganizationLocation>
+                           <nc:LocationAddress>
+                              <nc:StructuredAddress>
+                                 <nc:LocationStreet>
+                                    <nc:StreetFullText>110 W. Congress St.</nc:StreetFullText>
+                                 </nc:LocationStreet>
+                                 <nc:LocationCityName>Tucson</nc:LocationCityName>
+                                 <nc:LocationStateName>AZ</nc:LocationStateName>
+                                 <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                 <nc:LocationPostalCode>85701</nc:LocationPostalCode>
+                              </nc:StructuredAddress>
+                           </nc:LocationAddress>
+                           <nc:LocationName>Pima County Superior</nc:LocationName>
+                        </nc:OrganizationLocation>
+                        <j:CourtName>Pima County Superior</j:CourtName>
+                     </j:CaseCourt>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode/>
+                        <ecf:CourtEventDocument s:id="d4f56d38-53d7-45d5-aaad-3be5bff37769" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>Complaint</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>20265008</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode/>
+                        <ecf:CourtEventDocument s:id="d47872f9-8636-41a2-b1cb-de1dc8e78f70" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>Notice of Provisional Remedy Without Notice System Generated</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>20265009</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode/>
+                        <ecf:CourtEventDocument s:id="d2fa9402-49e3-4a68-9991-cd5c96742a82" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>Summons Benjamin Orrick System Generated</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>20265010</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode/>
+                        <ecf:CourtEventDocument s:id="e7e119f3-5ae2-45b1-8ef1-4d34cb322300" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>Summons Mickey Mantel System Generated</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>20265011</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode/>
+                        <ecf:CourtEventDocument s:id="a0720c3b-7857-404c-ac16-773b9d4f46ba" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-03-12T14:01:26-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>Summons Harvey Reginald Hanson II System Generated</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>20265012</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-03-13T09:38:53-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode/>
+                        <ecf:CourtEventDocument s:id="c07392f1-7e9d-4160-be9d-f8e2cbc075ed" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-03-13T09:38:53-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>Motion To Intervene</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>20265018</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                  </CaseAugmentation>
+                  <CaseAugmentation>
+                     <ecf:CaseOfficial xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <nc:RoleOfPersonReference s:ref="e11dbb61-2e1a-4be8-8d63-df8978a06cc3"/>
+                        <j:JudicialOfficialBarMembership xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <j:JudicialOfficialBarIdentification>
+                              <nc:IdentificationID>002647</nc:IdentificationID>
+                              <j:IdentificationJurisdictionNCICLISCode/>
+                              <nc:IdentificationSourceText/>
+                           </j:JudicialOfficialBarIdentification>
+                        </j:JudicialOfficialBarMembership>
+                        <ecf:CaseRepresentedPartyReference s:ref="f06688a7-5993-4c2d-86c2-64517b9ff6ab"/>
+                        <ecf:CaseRepresentedPartyReference s:ref="dbe1e546-7221-4876-ba11-a288ea30fa55"/>
+                        <ecf:CaseRepresentedPartyReference s:ref="d148a2b1-6235-4908-b616-5f1b2399c979"/>
+                     </ecf:CaseOfficial>
+                     <ecf:CaseOfficial xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <nc:RoleOfPersonReference s:ref="f116d4ea-8aef-4c65-b8b8-6820c4a3a0e4"/>
+                        <j:JudicialOfficialBarMembership xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <j:JudicialOfficialBarIdentification>
+                              <nc:IdentificationID>002877</nc:IdentificationID>
+                              <j:IdentificationJurisdictionNCICLISCode/>
+                              <nc:IdentificationSourceText/>
+                           </j:JudicialOfficialBarIdentification>
+                        </j:JudicialOfficialBarMembership>
+                        <ecf:CaseRepresentedPartyReference s:ref="f06688a7-5993-4c2d-86c2-64517b9ff6ab"/>
+                        <ecf:CaseRepresentedPartyReference s:ref="dbe1e546-7221-4876-ba11-a288ea30fa55"/>
+                        <ecf:CaseRepresentedPartyReference s:ref="d148a2b1-6235-4908-b616-5f1b2399c979"/>
+                     </ecf:CaseOfficial>
+                     <ecf:CaseOfficial xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <nc:RoleOfPersonReference s:ref="fb523d40-db9d-45d8-9b41-4d273a6b2019"/>
+                        <ecf:CaseRepresentedPartyReference s:ref="c5928b47-9d1a-4dda-bb42-5318764ae757"/>
+                     </ecf:CaseOfficial>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="f06688a7-5993-4c2d-86c2-64517b9ff6ab">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>JACQUI</nc:PersonGivenName>
+                              <nc:PersonMiddleName/>
+                              <nc:PersonSurName>O'NEAL</nc:PersonSurName>
+                              <nc:PersonFullName>JACQUI O'NEAL</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3854943</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3771450</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Plaintiff</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator>false</aoc:CasePartySelfRepresentationIndicator>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="dbe1e546-7221-4876-ba11-a288ea30fa55">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>JIMMEY</nc:PersonGivenName>
+                              <nc:PersonMiddleName>FRANK</nc:PersonMiddleName>
+                              <nc:PersonSurName>KENNEDY</nc:PersonSurName>
+                              <nc:PersonFullName>JIMMEY FRANK KENNEDY SR</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3854944</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3771451</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Plaintiff</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator>false</aoc:CasePartySelfRepresentationIndicator>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="d148a2b1-6235-4908-b616-5f1b2399c979">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>JONATHON</nc:PersonGivenName>
+                              <nc:PersonMiddleName>THOMAS</nc:PersonMiddleName>
+                              <nc:PersonSurName>KIRKPATRICK</nc:PersonSurName>
+                              <nc:PersonFullName>JONATHON THOMAS KIRKPATRICK II</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3854945</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3771452</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Plaintiff</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator>false</aoc:CasePartySelfRepresentationIndicator>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="fcefe309-8b08-4c64-a74d-d3d6cb85e53b">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>BENJAMIN</nc:PersonGivenName>
+                              <nc:PersonMiddleName/>
+                              <nc:PersonSurName>ORRICK</nc:PersonSurName>
+                              <nc:PersonFullName>BENJAMIN ORRICK</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3854946</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3771453</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Defendant</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator>false</aoc:CasePartySelfRepresentationIndicator>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="d39f9ab7-6f80-47e4-a526-cdab276969c5">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>MICKEY</nc:PersonGivenName>
+                              <nc:PersonMiddleName/>
+                              <nc:PersonSurName>MANTEL</nc:PersonSurName>
+                              <nc:PersonFullName>MICKEY MANTEL</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3854947</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3771454</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Defendant</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator>false</aoc:CasePartySelfRepresentationIndicator>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="c8611cc2-aed0-4b87-b57d-859809e0b521">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>HARVEY</nc:PersonGivenName>
+                              <nc:PersonMiddleName>REGINALD</nc:PersonMiddleName>
+                              <nc:PersonSurName>HANSON</nc:PersonSurName>
+                              <nc:PersonFullName>HARVEY REGINALD HANSON II</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3854948</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3771455</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Defendant</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator>false</aoc:CasePartySelfRepresentationIndicator>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="c5928b47-9d1a-4dda-bb42-5318764ae757">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>KEVIN</nc:PersonGivenName>
+                              <nc:PersonMiddleName>SELFREPLIT</nc:PersonMiddleName>
+                              <nc:PersonSurName>MILLER</nc:PersonSurName>
+                              <nc:PersonFullName>KEVIN SELFREPLIT MILLER</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3854955</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3771462</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <ecf:PersonAugmentation>
+                              <nc:ContactInformation>
+                                 <nc:ContactMailingAddress>
+                                    <nc:StructuredAddress>
+                                       <nc:LocationStreet>
+                                          <nc:StreetFullText>1501 W. WASHINGTON ST. 1ST FLOOR</nc:StreetFullText>
+                                       </nc:LocationStreet>
+                                       <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                                       <nc:LocationStateName>AZ</nc:LocationStateName>
+                                       <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                       <nc:LocationPostalCode>85007</nc:LocationPostalCode>
+                                    </nc:StructuredAddress>
+                                 </nc:ContactMailingAddress>
+                              </nc:ContactInformation>
+                           </ecf:PersonAugmentation>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Intervenor</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator>true</aoc:CasePartySelfRepresentationIndicator>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="e11dbb61-2e1a-4be8-8d63-df8978a06cc3">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>MICHAEL</nc:PersonGivenName>
+                              <nc:PersonMiddleName>J</nc:PersonMiddleName>
+                              <nc:PersonSurName>ABOUD</nc:PersonSurName>
+                              <nc:PersonFullName>MICHAEL J ABOUD</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>138</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <ecf:PersonAugmentation>
+                              <nc:ContactInformation>
+                                 <nc:ContactMailingAddress>
+                                    <nc:StructuredAddress>
+                                       <nc:LocationStreet>
+                                          <nc:StreetFullText>1661 N SWAN RD STE 234</nc:StreetFullText>
+                                       </nc:LocationStreet>
+                                       <nc:LocationCityName>TUCSON</nc:LocationCityName>
+                                       <nc:LocationStateName>AZ</nc:LocationStateName>
+                                       <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                       <nc:LocationPostalCode>85712-4053</nc:LocationPostalCode>
+                                    </nc:StructuredAddress>
+                                 </nc:ContactMailingAddress>
+                              </nc:ContactInformation>
+                           </ecf:PersonAugmentation>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Private Attorney</ecf:CaseParticipantRoleCode>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="f116d4ea-8aef-4c65-b8b8-6820c4a3a0e4">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>JOHN</nc:PersonGivenName>
+                              <nc:PersonMiddleName>ELI</nc:PersonMiddleName>
+                              <nc:PersonSurName>ABOUD</nc:PersonSurName>
+                              <nc:PersonFullName>JOHN ELI ABOUD</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>2134957</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <ecf:PersonAugmentation>
+                              <nc:ContactInformation>
+                                 <nc:ContactMailingAddress>
+                                    <nc:StructuredAddress>
+                                       <nc:LocationStreet>
+                                          <nc:StreetFullText>1661 N SWAN RD STE 234</nc:StreetFullText>
+                                       </nc:LocationStreet>
+                                       <nc:LocationCityName>TUCSON</nc:LocationCityName>
+                                       <nc:LocationStateName>AZ</nc:LocationStateName>
+                                       <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                       <nc:LocationPostalCode>85712-4053</nc:LocationPostalCode>
+                                    </nc:StructuredAddress>
+                                 </nc:ContactMailingAddress>
+                              </nc:ContactInformation>
+                           </ecf:PersonAugmentation>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Private Attorney</ecf:CaseParticipantRoleCode>
+                     </aoc:CaseParticipant>
+                  </CaseAugmentation>
+                  <CauseOfActionCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0"/>
+                  <ClassActionIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</ClassActionIndicator>
+                  <JuryDemandIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</JuryDemandIndicator>
+                  <ReliefTypeCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0"/>
+                  <CaseGeneralCategoryText>C</CaseGeneralCategoryText>
+                  <CaseSubCategoryText>Account (Open or Stated)</CaseSubCategoryText>
+               </CivilCase>

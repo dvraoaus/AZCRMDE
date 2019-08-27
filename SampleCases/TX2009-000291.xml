@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<CaseResponseMessage xmlns:jxdm="http://www.it.ojp.gov/jxdm/3.0.3" xmlns:message="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageTypes-3.0" xmlns:common="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-3.0" xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseResponseMessage-3.0">
+  <jxdm:ActivityCourt>
+    <jxdm:OrganizationID>
+      <jxdm:ID>MCSC</jxdm:ID>
+    </jxdm:OrganizationID>
+    <jxdm:CourtName>Superior Court of the State of Arizona in Maricopa County</jxdm:CourtName>
+  </jxdm:ActivityCourt>
+  <jxdm:SubmissionSubmitter.Person>
+    <jxdm:PersonAssignedIDDetails>
+      <jxdm:PersonOtherID>
+        <jxdm:ID />
+        <jxdm:IDTypeText />
+      </jxdm:PersonOtherID>
+    </jxdm:PersonAssignedIDDetails>
+  </jxdm:SubmissionSubmitter.Person>
+  <jxdm:SubmissionSubmittedDate>09/25/2017</jxdm:SubmissionSubmittedDate>
+  <jxdm:SubmissionSubmittedTime>10:53:00 AM</jxdm:SubmissionSubmittedTime>
+  <jxdm:SubmissionReceivedDate>09/25/2017</jxdm:SubmissionReceivedDate>
+  <jxdm:SubmissionReceivedTime>10:53:00 AM</jxdm:SubmissionReceivedTime>
+  <message:SendingMDELocationID>
+    <jxdm:ID>COSC</jxdm:ID>
+  </message:SendingMDELocationID>
+  <message:SendingMDEProfileCode />
+  <message:Error>
+    <message:ErrorCode>0</message:ErrorCode>
+    <message:ErrorText>No error</message:ErrorText>
+  </message:Error>
+  <DocketedCase xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DocketedCaseType-3.0">
+    <jxdm:ActivityCourt>
+      <jxdm:OrganizationID>
+        <jxdm:ID />
+      </jxdm:OrganizationID>
+      <jxdm:CourtName>Superior Court of the State of Arizona in Maricopa County</jxdm:CourtName>
+    </jxdm:ActivityCourt>
+    <jxdm:CaseTitleText />
+    <jxdm:CaseTrackingID>
+      <jxdm:ID>9193520</jxdm:ID>
+    </jxdm:CaseTrackingID>
+    <jxdm:CaseLineageCase>
+      <jxdm:ActivityCourt>
+        <jxdm:CourtName />
+      </jxdm:ActivityCourt>
+      <jxdm:CaseTitleText>Arizona State Department Of Revenue Vs. Lewis, Et.</jxdm:CaseTitleText>
+      <jxdm:CaseTrackingID>
+        <jxdm:ID />
+        <jxdm:IDTypeText />
+      </jxdm:CaseTrackingID>
+    </jxdm:CaseLineageCase>
+    <jxdm:CaseParticipants>
+      <jxdm:CaseInitiatingPartyPerson.Person>
+        <jxdm:PersonName>
+          <jxdm:PersonPrefixName />
+          <jxdm:PersonGivenName />
+          <jxdm:PersonMiddleName />
+          <jxdm:PersonSurName>Arizona State Department of Revenue</jxdm:PersonSurName>
+        </jxdm:PersonName>
+        <jxdm:PrimaryContactInformation>
+          <jxdm:ContactTelephoneNumber>
+            <jxdm:TelephoneNumberFullID />
+            <jxdm:TelephoneNumberCommentText />
+          </jxdm:ContactTelephoneNumber>
+          <jxdm:ContactEmailID>
+            <jxdm:ID />
+          </jxdm:ContactEmailID>
+          <jxdm:ContactMailingAddress>
+            <jxdm:LocationStreet>
+              <jxdm:StreetFullText />
+            </jxdm:LocationStreet>
+            <jxdm:LocationCityName />
+            <jxdm:LocationCountyName />
+            <jxdm:LocationStateCode.USPostalService>AA</jxdm:LocationStateCode.USPostalService>
+            <jxdm:LocationPostalCodeID>
+              <jxdm:ID />
+            </jxdm:LocationPostalCodeID>
+            <jxdm:LocationCountryCode.fips10-4>AA</jxdm:LocationCountryCode.fips10-4>
+          </jxdm:ContactMailingAddress>
+        </jxdm:PrimaryContactInformation>
+        <jxdm:PersonBirthDate>01/01/0001</jxdm:PersonBirthDate>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID>001</jxdm:ID>
+            <jxdm:IDTypeText>FilerID</jxdm:IDTypeText>
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </jxdm:CaseInitiatingPartyPerson.Person>
+      <jxdm:CaseJudge>
+        <jxdm:PersonName>
+          <jxdm:PersonFullName>Whitten, Christopher</jxdm:PersonFullName>
+        </jxdm:PersonName>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID>51866735</jxdm:ID>
+            <jxdm:IDTypeText>JudgeID</jxdm:IDTypeText>
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </jxdm:CaseJudge>
+      <jxdm:CaseRespondentParty.Person>
+        <jxdm:PersonName>
+          <jxdm:PersonPrefixName />
+          <jxdm:PersonGivenName>Gordon</jxdm:PersonGivenName>
+          <jxdm:PersonMiddleName />
+          <jxdm:PersonSurName>Lewis</jxdm:PersonSurName>
+        </jxdm:PersonName>
+        <jxdm:PrimaryContactInformation>
+          <jxdm:ContactTelephoneNumber>
+            <jxdm:TelephoneNumberFullID />
+            <jxdm:TelephoneNumberCommentText />
+          </jxdm:ContactTelephoneNumber>
+          <jxdm:ContactEmailID>
+            <jxdm:ID />
+          </jxdm:ContactEmailID>
+          <jxdm:ContactMailingAddress>
+            <jxdm:LocationStreet>
+              <jxdm:StreetFullText />
+            </jxdm:LocationStreet>
+            <jxdm:LocationCityName />
+            <jxdm:LocationCountyName />
+            <jxdm:LocationStateCode.USPostalService>AA</jxdm:LocationStateCode.USPostalService>
+            <jxdm:LocationPostalCodeID>
+              <jxdm:ID />
+            </jxdm:LocationPostalCodeID>
+            <jxdm:LocationCountryCode.fips10-4>AA</jxdm:LocationCountryCode.fips10-4>
+          </jxdm:ContactMailingAddress>
+        </jxdm:PrimaryContactInformation>
+        <jxdm:PersonBirthDate>01/01/0001</jxdm:PersonBirthDate>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID />
+            <jxdm:IDTypeText />
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </jxdm:CaseRespondentParty.Person>
+      <jxdm:CaseRespondentParty.Person>
+        <jxdm:PersonName>
+          <jxdm:PersonPrefixName />
+          <jxdm:PersonGivenName>Christina</jxdm:PersonGivenName>
+          <jxdm:PersonMiddleName />
+          <jxdm:PersonSurName>Lewis</jxdm:PersonSurName>
+        </jxdm:PersonName>
+        <jxdm:PrimaryContactInformation>
+          <jxdm:ContactTelephoneNumber>
+            <jxdm:TelephoneNumberFullID />
+            <jxdm:TelephoneNumberCommentText />
+          </jxdm:ContactTelephoneNumber>
+          <jxdm:ContactEmailID>
+            <jxdm:ID />
+          </jxdm:ContactEmailID>
+          <jxdm:ContactMailingAddress>
+            <jxdm:LocationStreet>
+              <jxdm:StreetFullText />
+            </jxdm:LocationStreet>
+            <jxdm:LocationCityName />
+            <jxdm:LocationCountyName />
+            <jxdm:LocationStateCode.USPostalService>AA</jxdm:LocationStateCode.USPostalService>
+            <jxdm:LocationPostalCodeID>
+              <jxdm:ID />
+            </jxdm:LocationPostalCodeID>
+            <jxdm:LocationCountryCode.fips10-4>AA</jxdm:LocationCountryCode.fips10-4>
+          </jxdm:ContactMailingAddress>
+        </jxdm:PrimaryContactInformation>
+        <jxdm:PersonBirthDate>01/01/0001</jxdm:PersonBirthDate>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID />
+            <jxdm:IDTypeText />
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </jxdm:CaseRespondentParty.Person>
+    </jxdm:CaseParticipants>
+    <jxdm:CaseStatus>
+      <jxdm:StatusText />
+      <jxdm:StatusDate>01/01/0001</jxdm:StatusDate>
+      <jxdm:StatusTime>12:00:00 AM</jxdm:StatusTime>
+      <jxdm:StatusDescriptionText />
+    </jxdm:CaseStatus>
+    <CaseShortTitleText xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseType-3.0" />
+    <CaseClassification xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseType-3.0">
+      <CaseTypeCode>TX</CaseTypeCode>
+    </CaseClassification>
+    <ExtendedCaseParticipants xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseType-3.0">
+      <CaseInitiatingPartyAttorney>
+        <jxdm:PersonName>
+          <jxdm:PersonPrefixName />
+          <jxdm:PersonGivenName>Marc</jxdm:PersonGivenName>
+          <jxdm:PersonMiddleName>A</jxdm:PersonMiddleName>
+          <jxdm:PersonSurName>D'Amore</jxdm:PersonSurName>
+        </jxdm:PersonName>
+        <jxdm:PrimaryContactInformation>
+          <jxdm:ContactTelephoneNumber>
+            <jxdm:TelephoneNumberFullID>(602) 542-8438</jxdm:TelephoneNumberFullID>
+            <jxdm:TelephoneNumberCommentText>Office</jxdm:TelephoneNumberCommentText>
+          </jxdm:ContactTelephoneNumber>
+          <jxdm:ContactEmailID>
+            <jxdm:ID />
+          </jxdm:ContactEmailID>
+          <jxdm:ContactMailingAddress>
+            <jxdm:LocationStreet>
+              <jxdm:StreetFullText>1275 W WASHINGTON</jxdm:StreetFullText>
+            </jxdm:LocationStreet>
+            <jxdm:LocationCityName>Phoenix</jxdm:LocationCityName>
+            <jxdm:LocationCountyName />
+            <jxdm:LocationStateCode.USPostalService>AZ</jxdm:LocationStateCode.USPostalService>
+            <jxdm:LocationPostalCodeID>
+              <jxdm:ID>85007-2997     </jxdm:ID>
+            </jxdm:LocationPostalCodeID>
+            <jxdm:LocationCountryCode.fips10-4>US</jxdm:LocationCountryCode.fips10-4>
+          </jxdm:ContactMailingAddress>
+        </jxdm:PrimaryContactInformation>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID>019728</jxdm:ID>
+            <jxdm:IDTypeText>AttorneyID</jxdm:IDTypeText>
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </CaseInitiatingPartyAttorney>
+    </ExtendedCaseParticipants>
+    <CaseLanguageCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseType-3.0">eng</CaseLanguageCode>
+    <CaseAttorneyRole xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseType-3.0">
+      <CaseAttorneyRoleTypeCode />
+      <RelatedPersonReference />
+    </CaseAttorneyRole>
+    <CaseRelatedCase xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseType-3.0">
+      <jxdm:ActivityCourt>
+        <jxdm:CourtName />
+      </jxdm:ActivityCourt>
+      <jxdm:CaseTitleText />
+      <jxdm:CaseTrackingID>
+        <jxdm:ID />
+        <jxdm:IDJurisdictionCode.ncicLIS>AA</jxdm:IDJurisdictionCode.ncicLIS>
+      </jxdm:CaseTrackingID>
+      <ExtendedCaseParticipants />
+      <CaseAssociationTypeCode />
+    </CaseRelatedCase>
+    <CaseCourtEvent>
+      <jxdm:ActivityID>
+        <jxdm:ID>DOCKETID</jxdm:ID>
+        <jxdm:IDTypeText>DocketEntryID</jxdm:IDTypeText>
+      </jxdm:ActivityID>
+      <jxdm:ActivityDescriptionText />
+      <jxdm:ActivityDate>01/01/0001</jxdm:ActivityDate>
+      <jxdm:ActivityTime>12:00:00 AM</jxdm:ActivityTime>
+      <jxdm:CourtEventJudge>
+        <jxdm:PersonName>
+          <jxdm:PersonFullName />
+        </jxdm:PersonName>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID />
+            <jxdm:IDTypeText />
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </jxdm:CourtEventJudge>
+      <CourtEventEnteredOnDocketDate>01/01/0001</CourtEventEnteredOnDocketDate>
+      <CourtEventTypeCode />
+      <CourtEventDocument>
+        <jxdm:DocumentDescriptiveMetadata>
+          <jxdm:DocumentID>
+            <jxdm:ID>021026113116117127106120121122126116127107116099101106100103096111108125126</jxdm:ID>
+          </jxdm:DocumentID>
+          <jxdm:DocumentSequenceID>
+            <jxdm:ID>1</jxdm:ID>
+          </jxdm:DocumentSequenceID>
+        </jxdm:DocumentDescriptiveMetadata>
+      </CourtEventDocument>
+      <CourtEventRelatedDocketEntry>
+        <ChildCourtEventID>
+          <jxdm:ID />
+        </ChildCourtEventID>
+      </CourtEventRelatedDocketEntry>
+      <CourtEventActor>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID />
+            <jxdm:IDTypeText />
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </CourtEventActor>
+      <CourtEventOnBehalfOfActor>
+        <jxdm:PersonAssignedIDDetails>
+          <jxdm:PersonOtherID>
+            <jxdm:ID />
+            <jxdm:IDTypeText />
+          </jxdm:PersonOtherID>
+        </jxdm:PersonAssignedIDDetails>
+      </CourtEventOnBehalfOfActor>
+      <CourtEventSchedule>
+        <jxdm:ScheduleDate>01/01/0001</jxdm:ScheduleDate>
+        <jxdm:ScheduleDayStartTime>12:00:00 AM</jxdm:ScheduleDayStartTime>
+        <jxdm:ScheduleDayEndTime>12:00:00 AM</jxdm:ScheduleDayEndTime>
+        <jxdm:ScheduleActivityText />
+        <ScheduleLocationCode />
+        <ScheduleLocationText />
+      </CourtEventSchedule>
+    </CaseCourtEvent>
+  </DocketedCase>
+  <CaseTypeSpecificMessage xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CaseTypeSpecificMessage-3.0" />
+  <CourtSpecificMessage xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CourtSpecificMessage-3.0">
+    <jxdm:ID>
+    </jxdm:ID>
+  </CourtSpecificMessage>
+</CaseResponseMessage>

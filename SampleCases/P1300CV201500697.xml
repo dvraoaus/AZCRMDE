@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="c7dd7ff5-2dea-44ab-95ef-280aa4956bab" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>Helen Jones  
+PLAINTIFF
+vs
+Onion Markets 
+DEFENDANT
+</nc:CaseTitleText>
+  <nc:CaseCategoryText>CO</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P1300CV201500697</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateName>AZ</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Yavapai County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County Superior</j:CourtName>
+    </j:CaseCourt>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation />
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CV</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>OC</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

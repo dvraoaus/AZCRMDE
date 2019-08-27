@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>FEDERAL NATIONAL MORTGAGE ASSOCIATION 
+VS
+ANTHONY FLORES et al</nc:CaseTitleText>
+  <nc:CaseCategoryText>C88</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P1300CV201400020</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateName>AOC.Domain.Core.Description</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Yavapai County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County Superior</j:CourtName>
+    </j:CaseCourt>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2014-01-07T15:27:39-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>COMPLAINT: Complaint</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="a9090dda-b698-4920-8daa-a4ace09f98cd">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2014-01-07T15:27:39-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>COMPLAINT: Complaint</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4130522</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2014-01-07T15:27:39-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>SUMMONS: SUMMONS</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="f5d3d865-daf4-4759-948e-462dbbca476e">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2014-01-07T15:27:39-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>SUMMONS: SUMMONS</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4130524</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2014-01-07T15:27:39-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>ARBITRATION: CERTIFICATE OF COMPULSORY ARBITRATION - IS NOT SUBJECT TO</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="afeb7099-28b7-4551-9fc4-521064add296">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2014-01-07T15:27:39-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ARBITRATION: CERTIFICATE OF COMPULSORY ARBITRATION - IS NOT SUBJECT TO</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4130523</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2014-01-17T16:15:05-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>MINUTE ENTRY: HEARING</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="b4432592-6cf9-4e61-8b2c-c0169dce4956">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2014-01-17T16:15:05-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>MINUTE ENTRY: HEARING</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4138911</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2014-01-21T16:19:43-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>NOTICE: OF DISMISSAL / CASE</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="c2aa0588-7d17-4f25-86cf-9f2aa3fdbd2b">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2014-01-21T16:19:43-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>NOTICE: OF DISMISSAL / CASE</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4140015</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2014-01-14T08:49:49-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>SERVICE: Attempted Service</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="f898c7fb-699c-4eb2-87c8-bba08c27555f">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2014-01-14T08:49:49-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>SERVICE: Attempted Service</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4140231</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="cb086582-843f-4e51-8201-c8f3db1d601a">
+        <nc:PersonName>
+          <nc:PersonGivenName>KIMBERLY</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>FLORES</nc:PersonSurName>
+          <nc:PersonFullName>KIMBERLY FLORES</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3264117</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6395065</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourcePersonID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b0d0bf2d-ca38-4fe3-bd4c-23526c8d3fdf">
+        <nc:PersonName>
+          <nc:PersonGivenName>ANTHONY</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>FLORES</nc:PersonSurName>
+          <nc:PersonFullName>ANTHONY FLORES</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3264116</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6395064</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourcePersonID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="d1f23b8d-ec4c-4a21-a0e0-b5612a38d184">
+        <nc:PersonName>
+          <nc:PersonGivenName>MINA</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>HUNT</nc:PersonSurName>
+          <nc:PersonFullName>MINA HUNT</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6315563</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceCourtStaffID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>CR</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c7d15040-9a3e-47c4-8937-95b010555a10">
+        <nc:PersonName>
+          <nc:PersonGivenName>WENDY</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>BRYAN</nc:PersonSurName>
+          <nc:PersonFullName>WENDY BRYAN</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6315772</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceCourtStaffID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>C</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="af08a8e9-e2be-423d-94a1-370a29aa1ce5">
+        <nc:PersonName>
+          <nc:PersonGivenName>PATRICIA</nc:PersonGivenName>
+          <nc:PersonMiddleName>A</nc:PersonMiddleName>
+          <nc:PersonSurName>TREBESCH</nc:PersonSurName>
+          <nc:PersonFullName>PATRICIA A TREBESCH</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>1107</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceJudicialOfficerID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>J</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityOrganization s:id="bbae3414-8daf-4b4f-92f4-57700b31dc7c">
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>3264115</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceOrganizationID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationName>FEDERAL NATIONAL MORTGAGE ASSOCIATION</nc:OrganizationName>
+        <ecf:OrganizationAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>C/O PITE DUNCAN LLP
+2 N CENTRAL AVE SUITE 1135</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>85004</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:OrganizationAugmentation>
+      </ecf:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CV</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText />
+</aoc:CivilCase>

@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="fa8ec9e9-ffae-400b-9cd5-85e51e34413e" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>Jason Allan Greenspan  et al.
+PLAINTIFF
+vs
+NBC Universal 
+DEFENDANT
+</nc:CaseTitleText>
+  <nc:CaseCategoryText>CO</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P1300CV201500708</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateName>AZ</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Yavapai County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County Superior</j:CourtName>
+    </j:CaseCourt>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-10-29T10:43:42-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>SUMMONS: SUMMONS</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="b1c263ba-ef54-4eff-b40e-bd684c1c2db6">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-10-29T10:43:42-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>EFILING: Summons NBC Universal System Generated</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4452624</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-10-29T10:43:42-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>COMPLAINT: Complaint</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="b4b2e4a0-7d75-44e4-926b-2642e0921da3">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-10-29T10:43:42-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>EFILING: Complaint of Andrea</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4452623</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c79c2cba-f6fc-4e1e-bf37-61689dcce172">
+        <nc:PersonName>
+          <nc:PersonGivenName>Andrea</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>Mitchell</nc:PersonSurName>
+          <nc:PersonFullName>Andrea Mitchell</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3325072</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6428301</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourcePersonID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>7034835863</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>2846 Rosyln Drive Home Address</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Denver</nc:LocationCityName>
+                <nc:LocationStateName>CO</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>80238</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="e445d322-ff9c-4600-9fb2-1a0cf8e4b038">
+        <nc:PersonName>
+          <nc:PersonGivenName>Jason</nc:PersonGivenName>
+          <nc:PersonMiddleName>Allan</nc:PersonMiddleName>
+          <nc:PersonSurName>Greenspan</nc:PersonSurName>
+          <nc:PersonFullName>Jason Allan Greenspan</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3325071</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6428300</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourcePersonID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>7034835863</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>2846 Rosyln Drive Home Address</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Denver</nc:LocationCityName>
+                <nc:LocationStateName>CO</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>80238</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b7d9890f-d3ca-4a77-bf8f-5cc2bbb5b94d">
+        <nc:PersonName>
+          <nc:PersonGivenName>RAYMOND</nc:PersonGivenName>
+          <nc:PersonMiddleName>W</nc:PersonMiddleName>
+          <nc:PersonSurName>WEAVER</nc:PersonSurName>
+          <nc:PersonFullName>RAYMOND W WEAVER JR</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>1083</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceJudicialOfficerID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>J</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityOrganization s:id="f5c6116f-684d-4204-af8e-ea5f23722a31">
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>3325073</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceOrganizationID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationName>NBC Universal</nc:OrganizationName>
+        <ecf:OrganizationAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>7034835863</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>2846 Rosyln Drive Home Address</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Denver</nc:LocationCityName>
+                <nc:LocationStateName>CO</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>80238</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:OrganizationAugmentation>
+      </ecf:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CV</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>OC</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

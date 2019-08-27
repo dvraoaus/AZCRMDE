@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="ccf8ced0-88e3-4b1f-a84e-50a3daefae9b" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>UNITED SERVICES AUTOMOBILE ASSOCIATION 
+vs
+AT&amp;T MOBILITY 
+</nc:CaseTitleText>
+  <nc:CaseCategoryText>C56</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P1300CV201500019</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateName>AZ</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Yavapai County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County Superior</j:CourtName>
+    </j:CaseCourt>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-02T11:20:17-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>MINUTE ENTRY: HEARING</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="f7a4529a-24ec-4fcb-8bc0-989b7b07479f">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-02T11:20:17-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / MINUTE ENTRY: HEARING 3/2/2015 11:20:17 AM / MINUTE ENTRY: HEARING 3/2/2015 11:20:17 AM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4395021</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-01-16T10:37:58-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>NOTICE: Hearing</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="f3f8b869-0eb8-4581-b1d5-c28b816bb5f9">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-01-16T10:37:58-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / NOTICE: Hearing 1/16/2015 10:37:58 AM / NOTICE: Hearing 1/16/2015 10:37:58 AM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4366394</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-27T16:12:35-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>NOTICE: Notice</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="a6c03303-ed5e-4b05-a5d9-b8ac20b3f291">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-27T16:12:35-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / NOTICE: Notice 2/27/2015 4:12:35 PM / NOTICE: Notice 2/27/2015 4:12:35 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4396503</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-02T11:20:17-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>ORDER: Granting</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="a838256a-d288-4ac3-8dd0-d18ae6cfc9a3">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-02T11:20:17-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / ORDER: Granting 3/2/2015 11:20:17 AM / ORDER: Granting 3/2/2015 11:20:17 AM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4395022</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-01-14T15:26:52-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>PETITION: Petition</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="bf4ee045-4651-4320-98e7-b0838790f137">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-01-14T15:26:52-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / PETITION: Petition 1/14/2015 3:26:52 PM / PETITION: Petition 1/14/2015 3:26:52 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4364842</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="fe26cb5b-3903-4ee6-ba3c-e4eeab2af7ef" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>999999</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>ARIZONA STATE BAR</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="a5ea60bb-d6c0-4c92-a569-8e0f046676e3" />
+    </ecf:CaseOfficial>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="fe26cb5b-3903-4ee6-ba3c-e4eeab2af7ef">
+        <nc:PersonName>
+          <nc:PersonGivenName>CHRISTOPHER</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>INMAN</nc:PersonSurName>
+          <nc:PersonFullName>CHRISTOPHER INMAN</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3300720</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceAttorneyID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="e3d658cf-6efa-4355-b189-233152862e2a">
+        <nc:PersonName>
+          <nc:PersonGivenName>MINA</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>HUNT</nc:PersonSurName>
+          <nc:PersonFullName>MINA HUNT</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6315563</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceCourtStaffID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>CR</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="ed0a5aa0-2471-45ad-8b70-34007f3e9266">
+        <nc:PersonName>
+          <nc:PersonGivenName>LAURA</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>CROW</nc:PersonSurName>
+          <nc:PersonFullName>LAURA CROW</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6315770</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceCourtStaffID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>C</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b2ebac05-3063-4fdd-8d71-2fdf4324b735">
+        <nc:PersonName>
+          <nc:PersonGivenName>PATRICIA</nc:PersonGivenName>
+          <nc:PersonMiddleName>A</nc:PersonMiddleName>
+          <nc:PersonSurName>TREBESCH</nc:PersonSurName>
+          <nc:PersonFullName>PATRICIA A TREBESCH</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>1107</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceJudicialOfficerID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>J</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityOrganization s:id="db87c223-9dbf-4136-af2d-1311613a2c28">
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>3300705</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceOrganizationID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationName>AT&amp;T MOBILITY</nc:OrganizationName>
+      </ecf:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityOrganization s:id="a5ea60bb-d6c0-4c92-a569-8e0f046676e3">
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>3300704</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceOrganizationID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationName>UNITED SERVICES AUTOMOBILE ASSOCIATION</nc:OrganizationName>
+      </ecf:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CV</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>UCOTHER</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

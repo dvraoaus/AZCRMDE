@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="f9732c0d-93ea-46f8-9eff-10abc4be8b45" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>ROBERT  HERNANDEZ VS REYES VILLIANUEVA</nc:CaseTitleText>
+  <nc:CaseCategoryText>Injunction Against Harassment</nc:CaseCategoryText>
+  <nc:CaseTrackingID>C20145053</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1000</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>110 W. Congress St.
+</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Tucson</nc:LocationCityName>
+            <nc:LocationStateName>AZ</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>85701     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Pima County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Pima County Superior</j:CourtName>
+    </j:CaseCourt>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="c881d228-b206-4d25-9fb0-99a544d58bc7" />
+      <j:CaseOfficialRoleText>Judge</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="c0866805-d828-4a4a-af23-a84645968e7e" />
+      <j:CaseOfficialRoleText>Judge</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="c97a5850-cd03-4b7b-88f1-69a4c175a6a8" />
+      <j:CaseOfficialRoleText>Commissioner</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="a4af7985-8dfe-4b27-8078-f5a67b889430" />
+      <j:CaseOfficialRoleText>Commissioner</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="b7d0ba00-e4db-4265-b25f-29c33723845a" />
+      <j:CaseOfficialRoleText>Judge</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="ca0a6b65-5466-4414-96d9-89a2d6476261" />
+      <j:CaseOfficialRoleText>Judge</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c84331f7-5f50-41d4-94fc-c29fd78b6253">
+        <nc:PersonName>
+          <nc:PersonGivenName>ROBERT</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>HERNANDEZ</nc:PersonSurName>
+          <nc:PersonFullName>ROBERT HERNANDEZ</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3755751</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3667578</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>520-907-4939</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>1039 N ALAMO AVE APT 119
+</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>TUCSON</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>85711</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Plaintiff</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b126b218-9861-4f5f-82aa-3f6fe6f543f3">
+        <nc:PersonName>
+          <nc:PersonGivenName>REYES</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>VILLIANUEVA</nc:PersonSurName>
+          <nc:PersonFullName>REYES VILLIANUEVA</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3755752</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3667579</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>520-975-2985</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>1514 W BATHRUST
+</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>TUCSON</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>85746</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Defendant</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c881d228-b206-4d25-9fb0-99a544d58bc7">
+        <nc:PersonName>
+          <nc:PersonGivenName>D.</nc:PersonGivenName>
+          <nc:PersonMiddleName>DOUGLAS</nc:PersonMiddleName>
+          <nc:PersonSurName>METCALF</nc:PersonSurName>
+          <nc:PersonFullName>D. DOUGLAS METCALF</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2136975</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c0866805-d828-4a4a-af23-a84645968e7e">
+        <nc:PersonName>
+          <nc:PersonGivenName>D.</nc:PersonGivenName>
+          <nc:PersonMiddleName>DOUGLAS</nc:PersonMiddleName>
+          <nc:PersonSurName>METCALF</nc:PersonSurName>
+          <nc:PersonFullName>D. DOUGLAS METCALF</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2136975</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c97a5850-cd03-4b7b-88f1-69a4c175a6a8">
+        <nc:PersonName>
+          <nc:PersonGivenName>ALYCE</nc:PersonGivenName>
+          <nc:PersonMiddleName>L.</nc:PersonMiddleName>
+          <nc:PersonSurName>PENNINGTON</nc:PersonSurName>
+          <nc:PersonFullName>ALYCE L. PENNINGTON</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>438</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="a4af7985-8dfe-4b27-8078-f5a67b889430">
+        <nc:PersonName>
+          <nc:PersonGivenName>ALYCE</nc:PersonGivenName>
+          <nc:PersonMiddleName>L.</nc:PersonMiddleName>
+          <nc:PersonSurName>PENNINGTON</nc:PersonSurName>
+          <nc:PersonFullName>ALYCE L. PENNINGTON</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>438</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b7d0ba00-e4db-4265-b25f-29c33723845a">
+        <nc:PersonName>
+          <nc:PersonGivenName>INJUNCTION</nc:PersonGivenName>
+          <nc:PersonMiddleName>A.</nc:PersonMiddleName>
+          <nc:PersonSurName>HARASSMENT</nc:PersonSurName>
+          <nc:PersonFullName>INJUNCTION A. HARASSMENT</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>525</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="ca0a6b65-5466-4414-96d9-89a2d6476261">
+        <nc:PersonName>
+          <nc:PersonGivenName>INJUNCTION</nc:PersonGivenName>
+          <nc:PersonMiddleName>A.</nc:PersonMiddleName>
+          <nc:PersonSurName>HARASSMENT</nc:PersonSurName>
+          <nc:PersonFullName>INJUNCTION A. HARASSMENT</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>525</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>C</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>Default</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

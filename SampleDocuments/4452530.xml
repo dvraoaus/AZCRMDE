@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<WebServiceSIPGetDocumentResponse xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0">
+  <GetDocumentResponse xmlns="http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0">
+    <getdocument:GetDocumentResponse xmlns="http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/GetDocument/2.0" getdocument:version="2.0.0.0" xsi:schemaLocation="http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/GetDocument/2.0 ../xsd/exchange/GetDocument-MessageExchange.xsd" xmlns:getdocument="http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/GetDocument/2.0">
+      <docresponse:DocumentResponseMessage xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DocumentResponseMessage-4.0" xmlns:docresponse="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DocumentResponseMessage-4.0">
+        <ecf:SendingMDELocationID>
+          <nc:IdentificationID>urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0</nc:IdentificationID>
+        </ecf:SendingMDELocationID>
+        <ecf:SendingMDEProfileCode>urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0</ecf:SendingMDEProfileCode>
+        <j:CaseCourt>
+          <nc:OrganizationIdentification>
+            <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+          </nc:OrganizationIdentification>
+          <nc:OrganizationLocation>
+            <nc:LocationAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Prescott</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:LocationAddress>
+            <nc:LocationName>Yavapai County Superior</nc:LocationName>
+          </nc:OrganizationLocation>
+          <j:CourtName>Yavapai County Superior</j:CourtName>
+        </j:CaseCourt>
+        <ecf:Error>
+          <ecf:ErrorCode>-31</ecf:ErrorCode>
+          <ecf:ErrorText>This document is not available at this time. Please try again later.</ecf:ErrorText>
+        </ecf:Error>
+        <ecf:Document s:id="e1ba18e4-6505-4018-8ece-6a04feac864a">
+          <nc:DocumentCategoryText>NOTICE: PROPOSED NOTICE OF HEARING</nc:DocumentCategoryText>
+          <nc:DocumentDescriptionText>EFILING: Also did not get to see Monday night football</nc:DocumentDescriptionText>
+          <nc:DocumentFiledDate>
+            <nc:Date>2015-10-21</nc:Date>
+          </nc:DocumentFiledDate>
+          <nc:DocumentStatus>
+            <nc:StatusText>Not Final</nc:StatusText>
+            <nc:StatusDate>
+              <nc:DateTime>2015-10-21T09:08:37-06:00</nc:DateTime>
+            </nc:StatusDate>
+            <nc:StatusDescriptionText />
+          </nc:DocumentStatus>
+          <aoc:DocumentMetadata>
+            <j:RegisterActionDescriptionText />
+          </aoc:DocumentMetadata>
+          <aoc:DocumentRendition>
+            <nc:DocumentFileControlID>e1ba18e4-6505-4018-8ece-6a04feac864a</nc:DocumentFileControlID>
+            <nc:DocumentIdentification>
+              <nc:IdentificationID>4452530</nc:IdentificationID>
+              <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+            </nc:DocumentIdentification>
+            <ecf:DocumentRenditionMetadata>
+              <ecf:DocumentAttachment>
+                <nc:BinaryDescriptionText>BinaryObject Unavailable</nc:BinaryDescriptionText>
+                <nc:BinarySizeValue>0</nc:BinarySizeValue>
+                <ecf:AttachmentSequenceID>0</ecf:AttachmentSequenceID>
+              </ecf:DocumentAttachment>
+            </ecf:DocumentRenditionMetadata>
+          </aoc:DocumentRendition>
+        </ecf:Document>
+      </docresponse:DocumentResponseMessage>
+    </getdocument:GetDocumentResponse>
+  </GetDocumentResponse>
+</WebServiceSIPGetDocumentResponse>

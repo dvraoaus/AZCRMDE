@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="b4012471-2fca-4fa0-bd1e-f0be330f058f" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>MIDLAND FUNDING LLC
+vs
+JOHN TAYLOR
+</nc:CaseTitleText>
+  <nc:CaseCategoryText>CO</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P1300CV201500100</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateName>AZ</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Yavapai County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County Superior</j:CourtName>
+    </j:CaseCourt>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-02T13:01:32-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>COMPLAINT: Complaint</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="d007803e-f127-4254-b1d7-3538cada3628">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-02T13:01:32-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / COMPLAINT: Complaint 2/2/2015 1:01:32 PM / COMPLAINT: Complaint 2/2/2015 1:01:32 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4378818</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-31T14:57:50-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>REQUEST: Request</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="affdbc7f-8e29-499e-a938-04b8fe1d9f99">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-31T14:57:50-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / REQUEST: Request 3/31/2015 1:57:50 PM / REQUEST: Request 3/31/2015 1:57:50 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4417055</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-02T13:01:32-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>SUMMONS: SUMMONS</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="d1c3fcc4-96a5-4970-b94c-02fa653c89b6">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-02T13:01:32-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / SUMMONS: SUMMONS 2/2/2015 1:01:32 PM / SUMMONS: SUMMONS 2/2/2015 1:01:32 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4378820</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-31T16:55:16-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>MISCELLANEOUS: Disclosure / Supplemental Disclosure</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="f8a82081-d6ff-4285-b97b-6d9e4f2d3568">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-31T16:55:16-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / MISCELLANEOUS: Disclosure / Supplemental Disclosure 3/31/2015 3:55:16 PM / MISCELLANEOUS: Disclosure / Supplemental Disclosure 3/31/2015 3:55:16 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4417483</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-13T14:55:20-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>ONBASE / ORDER: Order 3/13/2015 1:55:20 PM / ORDER: Order 3/13/2015 1:55:20 PM</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="d74fd2f5-e467-4cbe-98b1-0406fb262ffe">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-13T14:55:20-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / ORDER: Order 3/13/2015 1:55:20 PM / ORDER: Order 3/13/2015 1:55:20 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4403114</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-03-09T11:01:37-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>ANSWER: ANSWER</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="c9b51318-8839-4006-8ee9-e30a4ec1c06d">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-03-09T11:01:37-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / ANSWER: ANSWER 3/9/2015 10:01:37 AM / ANSWER: ANSWER 3/9/2015 10:01:37 AM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4400141</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-25T15:28:17-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>SERVICE: Certificate</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="f64f6648-43fb-480c-aaa2-d882a7c68d54">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-25T15:28:17-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / SERVICE: Certificate 2/25/2015 3:28:17 PM / SERVICE: Certificate 2/25/2015 3:28:17 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4396412</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-02-02T13:01:32-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>ARBITRATION: CERTIFICATE OF COMPULSORY ARBITRATION - IS SUBJECT TO</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="cb413289-bb9a-446b-a136-51e7870edc30">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-02-02T13:01:32-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / ARBITRATION: CERTIFICATE OF COMPULSORY ARBITRATION - IS SUBJECT TO 2/2/2015 1:01:32 PM / ARBITRATION: CERTIFICATE OF COMPULSORY ARBITRATION - IS SUBJECT TO 2/2/2015 1:01:32 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4378819</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2015-10-21T09:10:13-06:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>EFILING: Not giving up family time</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="e6c67e61-6f1f-4beb-aa9a-f6b22c994e8b">
+        <nc:DocumentStatus>
+          <nc:StatusText>Not Final</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2015-10-21T09:10:13-06:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>EFILING: Not giving up family time</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4452532</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="f68cbc81-441b-4159-9c4b-251a4e914648" />
+      <ecf:CaseRepresentedPartyReference s:ref="f916ac0c-61e1-4cc4-b908-3fc9a7b1023f" />
+    </ecf:CaseOfficial>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="b0cee8b9-d951-4bc7-838b-1e3eb129752d" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>030100</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>ARIZONA STATE BAR</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="ae23d9c5-0f5f-4cbb-b9cb-f2b74574f1a3" />
+    </ecf:CaseOfficial>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="f916ac0c-61e1-4cc4-b908-3fc9a7b1023f">
+        <nc:PersonName>
+          <nc:PersonGivenName>JOHN</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>TAYLOR</nc:PersonSurName>
+          <nc:PersonFullName>JOHN TAYLOR</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3302705</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6412495</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourcePersonID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>5433 N PAWNEE DR</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>PRESCOTT VALLEY</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>86314</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="f916ac0c-61e1-4cc4-b908-3fc9a7b1023f">
+        <nc:PersonName>
+          <nc:PersonGivenName>JOHN</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>TAYLOR</nc:PersonSurName>
+          <nc:PersonFullName>JOHN TAYLOR</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3302705</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>6412495</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourcePersonID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>5433 N PAWNEE DR</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>PRESCOTT VALLEY</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>86314</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b0cee8b9-d951-4bc7-838b-1e3eb129752d">
+        <nc:PersonName>
+          <nc:PersonGivenName>EMILY</nc:PersonGivenName>
+          <nc:PersonMiddleName>E</nc:PersonMiddleName>
+          <nc:PersonSurName>COOPER</nc:PersonSurName>
+          <nc:PersonFullName>EMILY E COOPER</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3302980</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceAttorneyID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="fad00787-62cf-4f31-bb91-cf3d782ad875">
+        <nc:PersonName>
+          <nc:PersonGivenName>JEFF</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>PAUPORE</nc:PersonSurName>
+          <nc:PersonFullName>JEFF PAUPORE</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>1123</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceJudicialOfficerID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>J</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityOrganization s:id="ae23d9c5-0f5f-4cbb-b9cb-f2b74574f1a3">
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>3302704</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceOrganizationID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationName>MIDLAND FUNDING LLC</nc:OrganizationName>
+      </ecf:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CV</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>AOS</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

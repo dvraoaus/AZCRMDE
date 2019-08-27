@@ -19,8 +19,11 @@ using System.ServiceModel.Activation;
 using System.Web;
 using System.Web.Hosting;
 using System.Xml.Serialization;
-using amc = Arizona.Courts.ExChanges.v20;
-using aoc = Arizona.Courts.Extensions.v20;
+using amc20 = Arizona.Courts.ExChanges.v20;
+using aoc20 = Arizona.Courts.Extensions.v20;
+using amc21 = Arizona.Courts.ExChanges.v21;
+using aoc21 = Arizona.Courts.Extensions.v21;
+
 using caseResponse = Oasis.LegalXml.CourtFiling.v40.CaseResponse;
 using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20;
@@ -48,83 +51,107 @@ namespace Arizona.Courts.Services.v20
             try
             {
                 string caseTrackingId = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseTrackingID != null && !string.IsNullOrEmpty(getCaseRequest.CaseQueryMessage.CaseTrackingID.Value) ? getCaseRequest.CaseQueryMessage.CaseTrackingID.Value : string.Empty;
-                aoc.CivilCaseType civilCase = this.GetCase(caseTrackingId);
+                bool use21Version = getCaseRequest != null && getCaseRequest.GetCaseRequestMessageObject != null && getCaseRequest.GetCaseRequestMessageObject is amc21.GetCaseRequestWrapperType;
+                nc.CaseType civilCase = use21Version  ? 
+                                        this.Get21Case(caseTrackingId) :
+                                        this.Get20Case(caseTrackingId);
                 if (civilCase != null)
                 {
-                    response = new wmp.GetCaseResponse
-                    (
-                        getCaseResponse: new amc.GetCaseResponseType
-                        {
-                            CaseResponseMessage = new caseResponse.CaseResponseMessageType
+                    if (use21Version)
+                    {
+                        response = new wmp.GetCaseResponse
+                        (
+                            getCaseResponse: new amc21.GetCaseResponseType
                             {
-                                Case = civilCase,
-                                Error = ecf.EcfHelper.OperationSuccessfull(),
-                                CaseCourt = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseCourt != null ? getCaseRequest.CaseQueryMessage.CaseCourt : SampleCourts.CaseCourt,
-                                SendingMDELocationID = new nc.IdentificationType("http://courts.az.gov/eFiling/MockCRMDE"),
-                                SendingMDEProfileCode = "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0"
-                            }
+                                CaseResponseMessage = new caseResponse.CaseResponseMessageType
+                                {
+                                    Case = civilCase,
+                                    Error = ecf.EcfHelper.OperationSuccessfull(),
+                                    CaseCourt = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseCourt != null ? getCaseRequest.CaseQueryMessage.CaseCourt : SampleCourts.CaseCourt,
+                                    SendingMDELocationID = new nc.IdentificationType("http://courts.az.gov/eFiling/MockCRMDE"),
+                                    SendingMDEProfileCode = "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0"
+                                }
 
-                        }
-                    );
+                            }
+                        );
+                    }
+                    else
+                    {
+                            response = new wmp.GetCaseResponse
+                            (
+                                getCaseResponse: new amc20.GetCaseResponseType
+                                {
+                                    CaseResponseMessage = new caseResponse.CaseResponseMessageType
+                                    {
+                                        Case = civilCase,
+                                        Error = ecf.EcfHelper.OperationSuccessfull(),
+                                        CaseCourt = getCaseRequest != null && getCaseRequest.CaseQueryMessage != null && getCaseRequest.CaseQueryMessage.CaseCourt != null ? getCaseRequest.CaseQueryMessage.CaseCourt : SampleCourts.CaseCourt,
+                                        SendingMDELocationID = new nc.IdentificationType("http://courts.az.gov/eFiling/MockCRMDE"),
+                                        SendingMDEProfileCode = "urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:WebServicesProfile-2.0"
+                                    }
+
+                                }
+                            );
+                    }
                 }
                 else if ( civilCase == null)
                 {
                     string errorCode = "-10";
                     string errorText = string.Empty  ;
-                    if ( !string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_ACCESS_CCI))
+                    if ( !string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_ACCESS_CCI))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_ACCESS_CCI ;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_ACCESS_CCI ;
                         errorText = "Unable to access CCI" ;
                     }
-                    else if ( !string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_FIND_CASE_IN_CCI.Substring(1)))
+                    else if ( !string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_FIND_CASE_IN_CCI.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_FIND_CASE_IN_CCI ;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_CAN_NOT_FIND_CASE_IN_CCI ;
                         errorText = string.Format("Case #  {0} not found.!!!!", caseTrackingId);
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_SEALED_CASE.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_SEALED_CASE.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_SEALED_CASE;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_SEALED_CASE;
                         errorText = string.Format("Case #  {0} is a sealed case.!!!!", caseTrackingId);
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_RESTRICTED_CASE.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_RESTRICTED_CASE.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_RESTRICTED_CASE;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_RESTRICTED_CASE;
                         errorText = string.Format("Case #  {0} is restricted.!!!!", caseTrackingId);
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CONSOLIDATED_CASE.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_CONSOLIDATED_CASE.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CONSOLIDATED_CASE;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_CONSOLIDATED_CASE;
                         errorText = string.Format("Case #  {0} is consolidated.!!!!", caseTrackingId);
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_TRANSFERRED_CASE.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_TRANSFERRED_CASE.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_TRANSFERRED_CASE;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_TRANSFERRED_CASE;
                         errorText = string.Format("Case #  {0} is transferred.!!!!", caseTrackingId);
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_XML_BAD_NARKUP.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_XML_BAD_NARKUP.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_XML_BAD_NARKUP;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_XML_BAD_NARKUP;
                         errorText = string.Format("XML Bad Morkup.!!!!", caseTrackingId);
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_XML_NOT_FORMED.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_XML_NOT_FORMED.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_XML_NOT_FORMED;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_XML_NOT_FORMED;
                         errorText = string.Format("XML Not Well formed.!!!!", caseTrackingId);
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_DELETED_CASE.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_DELETED_CASE.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_DELETED_CASE;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_DELETED_CASE;
                         errorText = string.Format("Deleted");
                     }
-                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc.PolicyConstants.GETCASE_ERRORCODE_CLOSED_CASE.Substring(1)))
+                    else if (!string.IsNullOrEmpty(caseTrackingId) && caseTrackingId.EndsWith(amc20.PolicyConstants.GETCASE_ERRORCODE_CLOSED_CASE.Substring(1)))
                     {
-                        errorCode = amc.PolicyConstants.GETCASE_ERRORCODE_CLOSED_CASE;
+                        errorCode = amc20.PolicyConstants.GETCASE_ERRORCODE_CLOSED_CASE;
                         errorText = string.Format("Closed");
                     }
 
                     response = new wmp.GetCaseResponse
                     (
-                        getCaseResponse: new amc.GetCaseResponseType
+                        getCaseResponse: new amc20.GetCaseResponseType
                         {
                             CaseResponseMessage = new caseResponse.CaseResponseMessageType
                             {
@@ -143,9 +170,9 @@ namespace Arizona.Courts.Services.v20
             }
             catch (Exception ex)
             {
-                throw new FaultException<aoc.OperationExceptionType>
+                throw new FaultException<aoc20.OperationExceptionType>
                     (
-                        new aoc.OperationExceptionType {  Operation = "GetCase",  ExceptionDetail = ex.Message },
+                        new aoc20.OperationExceptionType {  Operation = "GetCase",  ExceptionDetail = ex.Message },
                         new FaultReason(ex.Message),
                         new FaultCode("OTHER")
                     );
@@ -156,9 +183,9 @@ namespace Arizona.Courts.Services.v20
 
         }
 
-        private aoc.CivilCaseType GetCase(string caseTrackingId)
+        private nc.CaseType Get20Case(string caseTrackingId)
         {
-            aoc.CivilCaseType civilCase = null;
+            aoc20.CivilCaseType civilCase = null;
             if (!string.IsNullOrEmpty(caseTrackingId))
             {
 
@@ -167,8 +194,8 @@ namespace Arizona.Courts.Services.v20
                 {
                     using (var fs = new FileStream(caseXmlFile, FileMode.Open , FileAccess.Read ))
                     {
-                        XmlSerializer serializer = new XmlSerializer(typeof(aoc.CivilCaseType));
-                        civilCase = serializer.Deserialize(fs) as aoc.CivilCaseType;
+                        XmlSerializer serializer = new XmlSerializer(typeof(aoc20.CivilCaseType));
+                        civilCase = serializer.Deserialize(fs) as aoc20.CivilCaseType;
                     }
 
                 }
@@ -176,6 +203,25 @@ namespace Arizona.Courts.Services.v20
             return civilCase;
         }
 
+        private nc.CaseType Get21Case(string caseTrackingId)
+        {
+            aoc21.CivilCaseType civilCase = null;
+            if (!string.IsNullOrEmpty(caseTrackingId))
+            {
+
+                string caseXmlFile = GetApplicationPath() + @"\SampleCases\" + caseTrackingId + ".xml";
+                if (File.Exists(caseXmlFile))
+                {
+                    using (var fs = new FileStream(caseXmlFile, FileMode.Open, FileAccess.Read))
+                    {
+                        XmlSerializer serializer = new XmlSerializer(typeof(aoc21.CivilCaseType));
+                        civilCase = serializer.Deserialize(fs) as aoc21.CivilCaseType;
+                    }
+
+                }
+            }
+            return civilCase;
+        }
         private string GetApplicationPath()
         {
             string applicationPath = String.Empty;
@@ -219,9 +265,9 @@ namespace Arizona.Courts.Services.v20
             }
             catch (Exception ex)
             {
-                throw new FaultException<aoc.OperationExceptionType>
+                throw new FaultException<aoc20.OperationExceptionType>
                     (
-                        new aoc.OperationExceptionType { Operation = "GetCase", ExceptionDetail = ex.Message },
+                        new aoc20.OperationExceptionType { Operation = "GetCase", ExceptionDetail = ex.Message },
                         new FaultReason(ex.Message),
                         new FaultCode("OTHER")
                     );
@@ -243,9 +289,9 @@ namespace Arizona.Courts.Services.v20
             }
             catch (Exception ex)
             {
-                throw new FaultException<aoc.OperationExceptionType>
+                throw new FaultException<aoc20.OperationExceptionType>
                     (
-                        new aoc.OperationExceptionType { Operation = "GetCase", ExceptionDetail = ex.Message },
+                        new aoc20.OperationExceptionType { Operation = "GetCase", ExceptionDetail = ex.Message },
                         new FaultReason(ex.Message),
                         new FaultCode("OTHER")
                     );
@@ -289,9 +335,9 @@ namespace Arizona.Courts.Services.v20
             }
             catch (Exception ex)
             {
-                throw new FaultException<aoc.OperationExceptionType>
+                throw new FaultException<aoc20.OperationExceptionType>
                     (
-                        new aoc.OperationExceptionType { Operation = "GetDocument", ExceptionDetail = ex.Message },
+                        new aoc20.OperationExceptionType { Operation = "GetDocument", ExceptionDetail = ex.Message },
                         new FaultReason(ex.Message),
                         new FaultCode("OTHER")
                     );

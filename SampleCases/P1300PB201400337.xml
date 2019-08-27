@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+          <CivilCase a:id="cbe63baa-b265-43c4-8e70-e184e0d434a2" xmlns="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:a="http://niem.gov/niem/structures/2.0">
+            <CaseTitleText xmlns="http://niem.gov/niem/niem-core/2.0">
+              In the Re the Estate of:
+              GERALD JAMES BROWN
+              DECEDENT
+            </CaseTitleText>
+            <CaseCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">P35</CaseCategoryText>
+            <CaseTrackingID xmlns="http://niem.gov/niem/niem-core/2.0">P1300PB201400337</CaseTrackingID>
+            <CaseAugmentation xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+              <j:CaseCourt xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <nc:OrganizationIdentification>
+                  <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+                </nc:OrganizationIdentification>
+                <nc:OrganizationLocation>
+                  <nc:LocationAddress>
+                    <nc:StructuredAddress>
+                      <nc:LocationStreet>
+                        <nc:StreetFullText>120 S. Cortez St</nc:StreetFullText>
+                      </nc:LocationStreet>
+                      <nc:LocationCityName>Prescott</nc:LocationCityName>
+                      <nc:LocationStateName>AZ</nc:LocationStateName>
+                      <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                      <nc:LocationPostalCode>86301</nc:LocationPostalCode>
+                    </nc:StructuredAddress>
+                  </nc:LocationAddress>
+                  <nc:LocationName>Yavapai County Superior</nc:LocationName>
+                </nc:OrganizationLocation>
+                <j:CourtName>Yavapai County Superior</j:CourtName>
+              </j:CaseCourt>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>10368</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="a6fd68ee-562a-4eeb-83f6-5e900ca07bab" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / APPLICATION: FOR INFORMAL PROBATE OF WILL / APPT OF PR 12/23/2014 8:49:06 AM / APPLICATION: FOR INFORMAL PROBATE OF WILL / APPT OF PR 12/23/2014 8:49:06 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353507</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>10001</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="efb386a8-5921-4015-883c-56f18239cc0c" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / ACCEPTANCE: ACCEPTANCE 12/23/2014 8:49:06 AM / ACCEPTANCE: ACCEPTANCE 12/23/2014 8:49:06 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353512</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>10485</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="bbacff10-760c-42e9-8ee4-02a6d16b73ce" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / CERTIFICATE: Certificate 12/23/2014 8:49:06 AM / CERTIFICATE: Certificate 12/23/2014 8:49:06 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353515</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>11363</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="c273538c-e045-4a06-9c8c-e958ced786a9" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-23T08:49:06-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / MISCELLANEOUS: Information Sheet 12/23/2014 8:49:06 AM / MISCELLANEOUS: Information Sheet 12/23/2014 8:49:06 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353517</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText>Restricted</nc:DocumentDescriptionText>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-24T09:08:21-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>15172</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="dae2c6cb-a55e-4dc0-859b-29c6fb439b64" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-24T09:08:21-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / STATEMENT: ADMITTING WILL / APPT OF PR 12/24/2014 9:08:21 AM / STATEMENT: ADMITTING WILL / APPT OF PR 12/24/2014 9:08:21 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353563</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-24T09:08:41-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>13617</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="c2a90eaf-6e48-4477-89a7-ae367c93f733" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-24T09:08:41-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / ORDER: Personal Representative 12/24/2014 9:08:41 AM / ORDER: Personal Representative 12/24/2014 9:08:41 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353566</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-24T09:08:41-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>11227</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="cccb1c85-f851-4e2f-b6af-8df821f529c3" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-24T09:08:41-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / LETTERS: of Personal Representative 12/24/2014 9:08:41 AM / LETTERS: of Personal Representative 12/24/2014 9:08:41 AM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4353567</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-30T16:37:10-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>12815</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="d2cee3f9-38af-4862-b234-05b9fb1f28bc" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-30T16:37:10-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / NOTICE: HEIRS / DEVISEES 12/30/2014 4:37:10 PM / NOTICE: HEIRS / DEVISEES 12/30/2014 4:37:10 PM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4356351</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-30T16:37:10-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>10133</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="f5ade223-07e0-4fd5-b3bc-26294bf1c8d6" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-30T16:37:10-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / AFFIDAVIT: AFFIDAVIT OF MAILING 12/30/2014 4:37:10 PM / AFFIDAVIT: AFFIDAVIT OF MAILING 12/30/2014 4:37:10 PM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4356352</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2014-12-30T16:38:01-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>12395</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="d5df6bff-648e-462b-88f3-75d1e4160647" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2014-12-30T16:38:01-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / NOTICE: Creditors 12/30/2014 4:38:01 PM / NOTICE: Creditors 12/30/2014 4:38:01 PM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4356353</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+              <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <ecf:CourtEventEnteredOnDocketDate>
+                  <nc:DateTime>2015-01-28T16:37:03-07:00</nc:DateTime>
+                </ecf:CourtEventEnteredOnDocketDate>
+                <ecf:CourtEventTypeCode>10210</ecf:CourtEventTypeCode>
+                <ecf:CourtEventDocument s:id="ffcbdb2e-174a-467f-9d97-7a120573ff46" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                  <nc:DocumentStatus>
+                    <nc:StatusText>Filed</nc:StatusText>
+                    <nc:StatusDate>
+                      <nc:DateTime>2015-01-28T16:37:03-07:00</nc:DateTime>
+                    </nc:StatusDate>
+                  </nc:DocumentStatus>
+                  <nc:DocumentTitleText>ONBASE / AFFIDAVIT: OF PUBLICATION 1/28/2015 4:37:03 PM / AFFIDAVIT: OF PUBLICATION 1/28/2015 4:37:03 PM</nc:DocumentTitleText>
+                  <ecf:DocumentMetadata>
+                    <j:RegisterActionDescriptionText/>
+                    <aoc:FilingAttorneyID/>
+                    <aoc:FilingPartyID/>
+                  </ecf:DocumentMetadata>
+                  <ecf:DocumentRendition>
+                    <nc:DocumentIdentification>
+                      <nc:IdentificationID>4373614</nc:IdentificationID>
+                      <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                    </nc:DocumentIdentification>
+                    <ecf:DocumentRenditionMetadata>
+                      <nc:DocumentDescriptionText/>
+                      <ecf:DocumentAttachment/>
+                    </ecf:DocumentRenditionMetadata>
+                  </ecf:DocumentRendition>
+                </ecf:CourtEventDocument>
+              </ecf:CaseCourtEvent>
+            </CaseAugmentation>
+            <CaseAugmentation>
+              <ecf:CaseOfficial xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <nc:RoleOfPersonReference s:ref="a21e5f98-4e2b-4003-9d98-f4bf9fcbf2a7"/>
+                <ecf:CaseRepresentedPartyReference s:ref="b3cceab0-7afd-444a-b73f-1b68834b5953"/>
+              </ecf:CaseOfficial>
+              <ecf:CaseOfficial xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                <nc:RoleOfPersonReference s:ref="b7eaddab-f5c6-425e-aa2e-688a5bad1dff"/>
+                <ecf:CaseRepresentedPartyReference s:ref="e22cd741-a6a6-4d5e-9509-fc4d15a62cdc"/>
+              </ecf:CaseOfficial>
+              <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                <ecf:EntityPerson s:id="b3cceab0-7afd-444a-b73f-1b68834b5953">
+                  <nc:PersonName>
+                    <nc:PersonGivenName>JEREMY</nc:PersonGivenName>
+                    <nc:PersonMiddleName>JAMES</nc:PersonMiddleName>
+                    <nc:PersonSurName>BROWN</nc:PersonSurName>
+                    <nc:PersonFullName>JEREMY JAMES BROWN</nc:PersonFullName>
+                  </nc:PersonName>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>3299082</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>19134</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <ecf:PersonAugmentation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>1414 WAGON WHEEL ROAD</nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PRESCOTT</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>86303</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>1414 WAGON WHEEL ROAD</nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PRESCOTT</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>86303</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>
+                              AZDOC #197455
+                              RELEASED DT 8/30/13
+                            </nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>85001</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>
+                              AZDOC #197455
+                              RELEASED DT 8/30/13
+                            </nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>85001</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                  </ecf:PersonAugmentation>
+                </ecf:EntityPerson>
+                <ecf:CaseParticipantRoleCode>F</ecf:CaseParticipantRoleCode>
+              </aoc:CaseParticipant>
+              <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                <ecf:EntityPerson s:id="e22cd741-a6a6-4d5e-9509-fc4d15a62cdc">
+                  <nc:PersonName>
+                    <nc:PersonGivenName>JEREMY</nc:PersonGivenName>
+                    <nc:PersonMiddleName>JAMES</nc:PersonMiddleName>
+                    <nc:PersonSurName>BROWN</nc:PersonSurName>
+                    <nc:PersonFullName>JEREMY JAMES BROWN</nc:PersonFullName>
+                  </nc:PersonName>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>3299128</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>19134</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <ecf:PersonAugmentation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>5207787459</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9283088646</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>1414 WAGON WHEEL ROAD</nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PRESCOTT</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>86303</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>1414 WAGON WHEEL ROAD</nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PRESCOTT</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>86303</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>
+                              AZDOC #197455
+                              RELEASED DT 8/30/13
+                            </nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>85001</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>
+                              AZDOC #197455
+                              RELEASED DT 8/30/13
+                            </nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>85001</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                  </ecf:PersonAugmentation>
+                </ecf:EntityPerson>
+                <ecf:CaseParticipantRoleCode>R</ecf:CaseParticipantRoleCode>
+              </aoc:CaseParticipant>
+              <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                <ecf:EntityPerson s:id="cefc67fe-56bf-41df-b102-8584af94a195">
+                  <nc:PersonName>
+                    <nc:PersonGivenName>GERALD</nc:PersonGivenName>
+                    <nc:PersonMiddleName>JAMES</nc:PersonMiddleName>
+                    <nc:PersonSurName>BROWN</nc:PersonSurName>
+                    <nc:PersonFullName>GERALD JAMES BROWN</nc:PersonFullName>
+                  </nc:PersonName>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>3299083</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>177517</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <ecf:PersonAugmentation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>1414 WAGON WHEEL</nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PRESCOTT</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode/>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                  </ecf:PersonAugmentation>
+                </ecf:EntityPerson>
+                <ecf:CaseParticipantRoleCode>U</ecf:CaseParticipantRoleCode>
+              </aoc:CaseParticipant>
+              <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                <ecf:EntityPerson s:id="a21e5f98-4e2b-4003-9d98-f4bf9fcbf2a7">
+                  <nc:PersonName>
+                    <nc:PersonGivenName>JOHN</nc:PersonGivenName>
+                    <nc:PersonMiddleName>C</nc:PersonMiddleName>
+                    <nc:PersonSurName>STALLINGS</nc:PersonSurName>
+                    <nc:PersonFullName>JOHN C STALLINGS</nc:PersonFullName>
+                  </nc:PersonName>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>3299118</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <ecf:PersonAugmentation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9284458021</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9284450122</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>
+                              BOYLE PECHARICH CLINE WHITTING
+                              P.O. BOX 1191
+                            </nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PRESCOTT</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>86302</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                  </ecf:PersonAugmentation>
+                </ecf:EntityPerson>
+                <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+              </aoc:CaseParticipant>
+              <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                <ecf:EntityPerson s:id="b7eaddab-f5c6-425e-aa2e-688a5bad1dff">
+                  <nc:PersonName>
+                    <nc:PersonGivenName>JOHN</nc:PersonGivenName>
+                    <nc:PersonMiddleName>C</nc:PersonMiddleName>
+                    <nc:PersonSurName>STALLINGS</nc:PersonSurName>
+                    <nc:PersonFullName>JOHN C STALLINGS</nc:PersonFullName>
+                  </nc:PersonName>
+                  <nc:PersonOtherIdentification>
+                    <nc:IdentificationID>3299129</nc:IdentificationID>
+                    <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                    <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+                  </nc:PersonOtherIdentification>
+                  <ecf:PersonAugmentation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9284458021</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactTelephoneNumber>
+                        <nc:FullTelephoneNumber>
+                          <nc:TelephoneNumberFullID>9284450122</nc:TelephoneNumberFullID>
+                        </nc:FullTelephoneNumber>
+                      </nc:ContactTelephoneNumber>
+                    </nc:ContactInformation>
+                    <nc:ContactInformation>
+                      <nc:ContactMailingAddress>
+                        <nc:StructuredAddress>
+                          <nc:LocationStreet>
+                            <nc:StreetFullText>
+                              BOYLE PECHARICH CLINE WHITTING
+                              P.O. BOX 1191
+                            </nc:StreetFullText>
+                          </nc:LocationStreet>
+                          <nc:LocationCityName>PRESCOTT</nc:LocationCityName>
+                          <nc:LocationStateName>AZ</nc:LocationStateName>
+                          <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                          <nc:LocationPostalCode>86302</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                      </nc:ContactMailingAddress>
+                    </nc:ContactInformation>
+                  </ecf:PersonAugmentation>
+                </ecf:EntityPerson>
+                <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+              </aoc:CaseParticipant>
+            </CaseAugmentation>
+            <CauseOfActionCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0"/>
+            <ClassActionIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</ClassActionIndicator>
+            <JuryDemandIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</JuryDemandIndicator>
+            <ReliefTypeCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0"/>
+            <CaseGeneralCategoryText>PB</CaseGeneralCategoryText>
+          </CivilCase>

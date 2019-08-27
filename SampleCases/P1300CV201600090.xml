@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="c78cd13e-0d5a-4d1b-a7ac-433ae0e2c459" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>In Re the Matter of:
+TWO HUNDRED FOURTY DOLLARS, ETC
+</nc:CaseTitleText>
+  <nc:CaseCategoryText>PF</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P1300CV201600090</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S. Cortez St
+</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateName>AZ</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86301     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Yavapai County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County Superior</j:CourtName>
+    </j:CaseCourt>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2016-02-16T13:06:11-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>1155114</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="d9816078-bc6a-4b11-b9d8-4f426d7d1d94">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2016-02-16T13:06:11-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / SERVICE: Certificate 2/16/2016 1:06:11 PM / SERVICE: Certificate 2/16/2016 1:06:11 PM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4630912</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <ecf:CaseCourtEvent>
+      <ecf:CourtEventEnteredOnDocketDate>
+        <nc:DateTime>2016-02-09T10:27:49-07:00</nc:DateTime>
+      </ecf:CourtEventEnteredOnDocketDate>
+      <ecf:CourtEventTypeCode>1152888</ecf:CourtEventTypeCode>
+      <ecf:CourtEventDocument s:id="fe5741c0-5c57-4d68-bc3e-b26455582502">
+        <nc:DocumentStatus>
+          <nc:StatusText>Filed</nc:StatusText>
+          <nc:StatusDate>
+            <nc:DateTime>2016-02-09T10:27:49-07:00</nc:DateTime>
+          </nc:StatusDate>
+        </nc:DocumentStatus>
+        <nc:DocumentTitleText>ONBASE / NOTICE: Of Pending Forfeiture 2/9/2016 10:27:49 AM / NOTICE: Of Pending Forfeiture 2/9/2016 10:27:49 AM</nc:DocumentTitleText>
+        <ecf:DocumentMetadata>
+          <j:RegisterActionDescriptionText />
+          <aoc:FilingAttorneyID />
+          <aoc:FilingPartyID />
+        </ecf:DocumentMetadata>
+        <ecf:DocumentRendition>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>4627158</nc:IdentificationID>
+            <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+          </nc:DocumentIdentification>
+          <ecf:DocumentRenditionMetadata>
+            <nc:DocumentDescriptionText />
+            <ecf:DocumentAttachment />
+          </ecf:DocumentRenditionMetadata>
+        </ecf:DocumentRendition>
+      </ecf:CourtEventDocument>
+    </ecf:CaseCourtEvent>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="baecad03-34f2-4100-9bf9-aab7d67c283b" />
+      <j:CaseOfficialRoleText>JUDGE</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="d409eb63-98f4-41cf-be4d-9a6a76366488" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>023693</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>AZ</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="ca48a3bc-b8ce-4b2b-9aa1-6e17cb4c9e3e" />
+    </ecf:CaseOfficial>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="d409eb63-98f4-41cf-be4d-9a6a76366488">
+        <nc:PersonName>
+          <nc:PersonGivenName>KRISTINA</nc:PersonGivenName>
+          <nc:PersonMiddleName>L</nc:PersonMiddleName>
+          <nc:PersonSurName>JEZAIRIAN</nc:PersonSurName>
+          <nc:PersonFullName>KRISTINA L JEZAIRIAN</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3341184</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="baecad03-34f2-4100-9bf9-aab7d67c283b">
+        <nc:PersonName>
+          <nc:PersonGivenName>JEFFREY</nc:PersonGivenName>
+          <nc:PersonMiddleName>G</nc:PersonMiddleName>
+          <nc:PersonSurName>PAUPORE</nc:PersonSurName>
+          <nc:PersonFullName>JEFFREY G PAUPORE</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>1123</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <aoc:EntityOrganization s:id="ca48a3bc-b8ce-4b2b-9aa1-6e17cb4c9e3e">
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>3340966</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationIdentification>
+          <nc:IdentificationID>6354917</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+        </nc:OrganizationIdentification>
+        <nc:OrganizationName>STATE OF ARIZONA</nc:OrganizationName>
+        <ecf:OrganizationAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>9287591727</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>3262 BOB DR, STE 7
+</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>PRESCOTT VALLEY</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>86314</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:OrganizationAugmentation>
+      </aoc:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <aoc:EntityItem s:id="c41f2b23-dec4-4edc-b611-982eae0798bb">
+        <nc:ItemDescriptionText>TWO HUNDRED FORTY U.S. DOLLARS</nc:ItemDescriptionText>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>3340967</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>6428991</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>ItemID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemValue />
+      </aoc:EntityItem>
+      <ecf:CaseParticipantRoleCode>PY</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <aoc:EntityItem s:id="ed266e3e-5062-45ce-a16f-271af784bd23">
+        <nc:ItemDescriptionText>TWO HUNDRED THIRTY-ONE U.S. DOLLARS</nc:ItemDescriptionText>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>3340968</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>6428992</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>ItemID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemValue />
+      </aoc:EntityItem>
+      <ecf:CaseParticipantRoleCode>PY</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <aoc:EntityItem s:id="b37eb3d9-a166-4c34-a1ad-d3e6fc143a96">
+        <nc:ItemDescriptionText>ONE HUNDRED FORTY SIX DOLLARS AND TWENTY-THREE CENTS</nc:ItemDescriptionText>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>3340969</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>6428993</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>ItemID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemValue />
+      </aoc:EntityItem>
+      <ecf:CaseParticipantRoleCode>PY</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <aoc:EntityItem s:id="d703ca3a-b958-471e-8b26-c8b349d299e5">
+        <nc:ItemDescriptionText>WHITE DODGE VAN (VIN 2B6HB21X3VK580889)</nc:ItemDescriptionText>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>3340970</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemOtherIdentification>
+          <nc:IdentificationID>6428994</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>ItemID</nc:IdentificationSourceText>
+        </nc:ItemOtherIdentification>
+        <nc:ItemValue />
+      </aoc:EntityItem>
+      <ecf:CaseParticipantRoleCode>PY</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CV</aoc:CaseGeneralCategoryText>
+</aoc:CivilCase>

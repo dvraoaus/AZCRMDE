@@ -21,11 +21,12 @@ using System.IO;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.Xml.Serialization;
-using aoc = Arizona.Courts.Extensions.v20;
+using aoc20 = Arizona.Courts.Extensions.v20;
 using core = Oasis.LegalXml.CourtFiling.v40.Core;
 using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20;
 using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
+
 namespace Arizona.Courts.Services.v20
 {
     [ServiceBehavior(Name = "FilingReviewMDEService", Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
@@ -72,9 +73,9 @@ namespace Arizona.Courts.Services.v20
             }
             catch (Exception ex)
             {
-                throw new FaultException<aoc.OperationExceptionType>
+                throw new FaultException<aoc20.OperationExceptionType>
                     (
-                        new aoc.OperationExceptionType { Operation = "Review Filing", ExceptionDetail = ex.Message },
+                        new aoc20.OperationExceptionType { Operation = "Review Filing", ExceptionDetail = ex.Message },
                         new FaultReason(ex.Message),
                         new FaultCode("OTHER")
                     );
@@ -86,8 +87,8 @@ namespace Arizona.Courts.Services.v20
         private string SaveReviewFilingXML(wmp.ReviewFilingRequest reviewFilingRequest)
         {
             string cmsConformationNumber = string.Empty;
-            core.CoreFilingMessageType coreFilingMessage = reviewFilingRequest != null ? reviewFilingRequest.CoreFilingMessage : null;
-            aoc.CoreFilingMessageType filingMessage = coreFilingMessage != null && coreFilingMessage is aoc.CoreFilingMessageType ? coreFilingMessage as aoc.CoreFilingMessageType : null;
+            core.CoreFilingMessageType filingMessage = reviewFilingRequest != null ? reviewFilingRequest.CoreFilingMessage : null;
+            
 
             if (filingMessage != null)
             {

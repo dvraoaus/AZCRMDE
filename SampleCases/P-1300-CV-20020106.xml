@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:ActivityIdentification>
+    <nc:IdentificationID>Subsequent</nc:IdentificationID>
+    <nc:IdentificationCategoryText>FilingType</nc:IdentificationCategoryText>
+  </nc:ActivityIdentification>
+  <nc:CaseTitleText>Price vs Bueras et al.</nc:CaseTitleText>
+  <nc:CaseCategoryText>CV</nc:CaseCategoryText>
+  <nc:CaseTrackingID>P-1300-CV-20020106</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1300</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>120 S Cortez St</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Prescott</nc:LocationCityName>
+            <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>86302</nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+      </nc:OrganizationLocation>
+      <j:CourtName>Yavapai County  -  Prescott</j:CourtName>
+    </j:CaseCourt>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="f0331996-6f99-4985-8a94-d2a1fe3e784e" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>8912</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>State Bar of Arizona</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="ee144833-507b-4e14-8ea7-3f4a76150a89" />
+    </ecf:CaseOfficial>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="f21ae60a-0495-4392-a534-194cc473a4a3" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>71241</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>State Bar of Arizona</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="fa8f97d5-6392-45af-b840-206e10217ff0" />
+      <ecf:CaseRepresentedPartyReference s:ref="a339db55-52af-4a5e-a5ac-94f277749bad" />
+      <ecf:CaseRepresentedPartyReference s:ref="b78e0021-8157-46c1-9058-262b6f56b65f" />
+    </ecf:CaseOfficial>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="c1aecdb5-abad-4db4-8628-55ff740ffb39" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>800</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>State Bar of Arizona</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="a1b85cb8-2bc3-44e8-9ddd-c1e6b69b0d78" />
+    </ecf:CaseOfficial>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="aa7c5827-6b5a-4625-9d99-e67cb1149e38" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>71365</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>State Bar of Arizona</nc:IdentificationSourceText>
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="fa8f97d5-6392-45af-b840-206e10217ff0" />
+      <ecf:CaseRepresentedPartyReference s:ref="a339db55-52af-4a5e-a5ac-94f277749bad" />
+      <ecf:CaseRepresentedPartyReference s:ref="b78e0021-8157-46c1-9058-262b6f56b65f" />
+    </ecf:CaseOfficial>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="ee144833-507b-4e14-8ea7-3f4a76150a89">
+        <nc:PersonName>
+          <nc:PersonGivenName>Christian</nc:PersonGivenName>
+          <nc:PersonSurName>Price</nc:PersonSurName>
+          <nc:PersonFullName>Christian Price</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918329</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="fa8f97d5-6392-45af-b840-206e10217ff0">
+        <nc:PersonName>
+          <nc:PersonGivenName>Vanessa</nc:PersonGivenName>
+          <nc:PersonSurName>Bueras</nc:PersonSurName>
+          <nc:PersonFullName>Vanessa Bueras</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918341</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="a339db55-52af-4a5e-a5ac-94f277749bad">
+        <nc:PersonName>
+          <nc:PersonGivenName>Laura</nc:PersonGivenName>
+          <nc:PersonSurName>Dean-Lytle</nc:PersonSurName>
+          <nc:PersonFullName>Laura Dean-Lytle</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918342</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b78e0021-8157-46c1-9058-262b6f56b65f">
+        <nc:PersonName>
+          <nc:PersonGivenName>Pete </nc:PersonGivenName>
+          <nc:PersonSurName>Rios</nc:PersonSurName>
+          <nc:PersonFullName>Pete Rios</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918343</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="a1b85cb8-2bc3-44e8-9ddd-c1e6b69b0d78">
+        <nc:PersonName>
+          <nc:PersonGivenName>Bryan</nc:PersonGivenName>
+          <nc:PersonSurName>Martyn</nc:PersonSurName>
+          <nc:PersonFullName>Bryan Martyn</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918344</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b610af6f-c0a6-4f1c-b3f3-b2faf35dfe3b">
+        <nc:PersonName>
+          <nc:PersonGivenName>David</nc:PersonGivenName>
+          <nc:PersonSurName>Snider</nc:PersonSurName>
+          <nc:PersonFullName>David Snider</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918345</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="cd3e18a5-4b56-4fb8-87af-d7de2c45a9b7">
+        <nc:PersonName>
+          <nc:PersonGivenName>Carl</nc:PersonGivenName>
+          <nc:PersonSurName>Diedrich</nc:PersonSurName>
+          <nc:PersonFullName>Carl Diedrich</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918340</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>IT</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="f0331996-6f99-4985-8a94-d2a1fe3e784e">
+        <nc:PersonName>
+          <nc:PersonGivenName>Anthony</nc:PersonGivenName>
+          <nc:PersonSurName>Tsontakis</nc:PersonSurName>
+          <nc:PersonFullName>Anthony Tsontakis</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918351</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>Atsontakis@tslaw.com</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>1000 Jason Lopez Cir</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Florence</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationPostalCode>85132</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>4081451441</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="f21ae60a-0495-4392-a534-194cc473a4a3">
+        <nc:PersonName>
+          <nc:PersonGivenName>Dennis</nc:PersonGivenName>
+          <nc:PersonMiddleName>M</nc:PersonMiddleName>
+          <nc:PersonSurName>Fitzgibbons</nc:PersonSurName>
+          <nc:PersonFullName>Dennis M Fitzgibbons</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918352</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>cniakan@gmail.com</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>15105 N Doubtful Canyon Dr</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Prescott</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationPostalCode>86305</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>6024565781</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="c1aecdb5-abad-4db4-8628-55ff740ffb39">
+        <nc:PersonName>
+          <nc:PersonGivenName>Joe</nc:PersonGivenName>
+          <nc:PersonSurName>Albo</nc:PersonSurName>
+          <nc:PersonFullName>Joe Albo</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918353</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>jalbo@gmail.com</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>250 Jason Lopez Cir</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Florence</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationPostalCode>85132</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>4081451124</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="aa7c5827-6b5a-4625-9d99-e67cb1149e38">
+        <nc:PersonName>
+          <nc:PersonGivenName>David</nc:PersonGivenName>
+          <nc:PersonMiddleName>M</nc:PersonMiddleName>
+          <nc:PersonSurName>Wilson</nc:PersonSurName>
+          <nc:PersonFullName>David M Wilson</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2918600</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>dwilson@gmail.com</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>100 Unit St</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Prescott</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationPostalCode>86305</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>9287711365</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <aoc:EntityOrganization s:id="e5988992-5283-4092-9a12-32a126f8c504">
+        <nc:OrganizationName>Arizona Travels Inc </nc:OrganizationName>
+        <j:OrganizationAugmentation />
+        <ecf:OrganizationAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactEmailID>info@aztraves.inc</nc:ContactEmailID>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>200 MLK Drive</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>Tucson</nc:LocationCityName>
+                <nc:LocationStateUSPostalServiceCode>AZ</nc:LocationStateUSPostalServiceCode>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>857011367</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>5206281000</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+        </ecf:OrganizationAugmentation>
+        <aoc:OrganizationCategoryText>Business</aoc:OrganizationCategoryText>
+      </aoc:EntityOrganization>
+      <ecf:CaseParticipantRoleCode>E</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>true</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>CIVIL</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>C45</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

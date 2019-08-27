@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<aoc:CivilCase xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="e70683bd-1b4d-4451-949c-f3e3aca3b098" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0">
+  <nc:CaseTitleText>MICHAEL JOHN BUDD ET AL. VS. TAMIKA K TATUM</nc:CaseTitleText>
+  <nc:CaseCategoryText>Tort Motor Vehicle</nc:CaseCategoryText>
+  <nc:CaseTrackingID>C20146142</nc:CaseTrackingID>
+  <j:CaseAugmentation>
+    <j:CaseCourt>
+      <nc:OrganizationIdentification>
+        <nc:IdentificationID>courts.az.gov:1000</nc:IdentificationID>
+      </nc:OrganizationIdentification>
+      <nc:OrganizationLocation>
+        <nc:LocationAddress>
+          <nc:StructuredAddress>
+            <nc:LocationStreet>
+              <nc:StreetFullText>110 W. Congress St.
+</nc:StreetFullText>
+            </nc:LocationStreet>
+            <nc:LocationCityName>Tucson</nc:LocationCityName>
+            <nc:LocationStateName>AZ</nc:LocationStateName>
+            <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+            <nc:LocationPostalCode>85701     </nc:LocationPostalCode>
+          </nc:StructuredAddress>
+        </nc:LocationAddress>
+        <nc:LocationName>Pima County Superior</nc:LocationName>
+      </nc:OrganizationLocation>
+      <j:CourtName>Pima County Superior</j:CourtName>
+    </j:CaseCourt>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="ecae9f65-40f8-490c-b156-af2c684e46c2" />
+      <j:CaseOfficialRoleText>Judge</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="b311cd05-fa16-49cb-b90a-a10c9d93dce3" />
+      <j:CaseOfficialRoleText>Judge</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+    <j:CaseJudge>
+      <nc:RoleOfPersonReference s:ref="d343a930-863c-4fe1-aa68-b766bd1c41d4" />
+      <j:CaseOfficialRoleText>Judge</j:CaseOfficialRoleText>
+    </j:CaseJudge>
+  </j:CaseAugmentation>
+  <aoc:CaseAugmentation>
+    <ecf:CaseOfficial>
+      <nc:RoleOfPersonReference s:ref="bb4d5437-0e96-4483-a12d-8a0cacd2a526" />
+      <j:JudicialOfficialBarMembership>
+        <j:JudicialOfficialBarIdentification>
+          <nc:IdentificationID>011396</nc:IdentificationID>
+          <j:IdentificationJurisdictionNCICLISCode>AA</j:IdentificationJurisdictionNCICLISCode>
+          <nc:IdentificationSourceText />
+        </j:JudicialOfficialBarIdentification>
+      </j:JudicialOfficialBarMembership>
+      <ecf:CaseRepresentedPartyReference s:ref="a457093a-9140-4611-a001-9bd6cf82d95f" />
+      <ecf:CaseRepresentedPartyReference s:ref="ce86b080-8428-451f-af66-008135ee1d80" />
+    </ecf:CaseOfficial>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="dd407289-6234-4d5c-b190-42ee876220fb">
+        <nc:PersonName>
+          <nc:PersonGivenName>TAMIKA</nc:PersonGivenName>
+          <nc:PersonMiddleName>K</nc:PersonMiddleName>
+          <nc:PersonSurName>TATUM</nc:PersonSurName>
+          <nc:PersonFullName>TAMIKA K TATUM</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3777016</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3689301</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>4900 E 5TH STREET UNIT 2411
+</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>TUCSON</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>85711</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Defendant</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="a457093a-9140-4611-a001-9bd6cf82d95f">
+        <nc:PersonName>
+          <nc:PersonGivenName>MICHAEL</nc:PersonGivenName>
+          <nc:PersonMiddleName>JOHN</nc:PersonMiddleName>
+          <nc:PersonSurName>BUDD</nc:PersonSurName>
+          <nc:PersonFullName>MICHAEL JOHN BUDD</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3777014</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3689299</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>520-293-0344</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>1241 E PRINCE RD
+</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>TUCSON         </nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>85719</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Plaintiff</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="ce86b080-8428-451f-af66-008135ee1d80">
+        <nc:PersonName>
+          <nc:PersonGivenName>ANGIE</nc:PersonGivenName>
+          <nc:PersonMiddleName>MARIE</nc:PersonMiddleName>
+          <nc:PersonSurName>BUDD</nc:PersonSurName>
+          <nc:PersonFullName>ANGIE MARIE BUDD</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3777015</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3689300</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+        <ecf:PersonAugmentation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>520-293-0344</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactTelephoneNumber>
+              <nc:FullTelephoneNumber>
+                <nc:TelephoneNumberFullID>520-293-0344</nc:TelephoneNumberFullID>
+              </nc:FullTelephoneNumber>
+            </nc:ContactTelephoneNumber>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>1241 E PRINCE RD
+</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>TUCSON         </nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>85719</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+          <nc:ContactInformation>
+            <nc:ContactMailingAddress>
+              <nc:StructuredAddress>
+                <nc:LocationStreet>
+                  <nc:StreetFullText>8780 N ORACLE RD
+</nc:StreetFullText>
+                </nc:LocationStreet>
+                <nc:LocationCityName>ORO VALLEY</nc:LocationCityName>
+                <nc:LocationStateName>AZ</nc:LocationStateName>
+                <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                <nc:LocationPostalCode>85704</nc:LocationPostalCode>
+              </nc:StructuredAddress>
+            </nc:ContactMailingAddress>
+          </nc:ContactInformation>
+        </ecf:PersonAugmentation>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Plaintiff</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="bb4d5437-0e96-4483-a12d-8a0cacd2a526">
+        <nc:PersonName>
+          <nc:PersonGivenName>RICHARD</nc:PersonGivenName>
+          <nc:PersonMiddleName>B</nc:PersonMiddleName>
+          <nc:PersonSurName>BIGGS</nc:PersonSurName>
+          <nc:PersonFullName>RICHARD B BIGGS</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2135056</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Private Attorney</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="ecae9f65-40f8-490c-b156-af2c684e46c2">
+        <nc:PersonName>
+          <nc:PersonGivenName>STEPHEN</nc:PersonGivenName>
+          <nc:PersonMiddleName>C.</nc:PersonMiddleName>
+          <nc:PersonSurName>VILLARREAL</nc:PersonSurName>
+          <nc:PersonFullName>STEPHEN C. VILLARREAL</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>444</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="b311cd05-fa16-49cb-b90a-a10c9d93dce3">
+        <nc:PersonName>
+          <nc:PersonGivenName>STEPHEN</nc:PersonGivenName>
+          <nc:PersonMiddleName>C.</nc:PersonMiddleName>
+          <nc:PersonSurName>VILLARREAL</nc:PersonSurName>
+          <nc:PersonFullName>STEPHEN C. VILLARREAL</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>444</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="d343a930-863c-4fe1-aa68-b766bd1c41d4">
+        <nc:PersonName>
+          <nc:PersonGivenName>STEPHEN</nc:PersonGivenName>
+          <nc:PersonMiddleName>C.</nc:PersonMiddleName>
+          <nc:PersonSurName>VILLARREAL</nc:PersonSurName>
+          <nc:PersonFullName>STEPHEN C. VILLARREAL</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>444</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>JudicialOfficerID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JO</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="cc8f4e47-d601-4b30-94f4-9b3014ac4217">
+        <nc:PersonName>
+          <nc:PersonGivenName>MARTI</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>ACKERMANN</nc:PersonSurName>
+          <nc:PersonFullName>MARTI ACKERMANN</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>1143</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>JAA</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="ea5187eb-7a35-49a2-b9d9-a8e50ff65f16">
+        <nc:PersonName>
+          <nc:PersonGivenName>BOB</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>SIPOS</nc:PersonSurName>
+          <nc:PersonFullName>BOB SIPOS</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>2046617</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Court Reporter</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="d2ad9a4e-c20d-4f71-b99b-1af69835f540">
+        <nc:PersonName>
+          <nc:PersonGivenName>Audrey</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>Miller</nc:PersonSurName>
+          <nc:PersonFullName>Audrey Miller</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>3633124</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Law Clerk</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+    <aoc:CaseParticipant>
+      <ecf:EntityPerson s:id="fea980e2-c324-4c1d-a294-abd288c0374d">
+        <nc:PersonName>
+          <nc:PersonGivenName>MIMI</nc:PersonGivenName>
+          <nc:PersonMiddleName />
+          <nc:PersonSurName>ARMSTRONG</nc:PersonSurName>
+          <nc:PersonFullName>MIMI ARMSTRONG</nc:PersonFullName>
+        </nc:PersonName>
+        <nc:PersonOtherIdentification>
+          <nc:IdentificationID>721</nc:IdentificationID>
+          <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+          <nc:IdentificationSourceText>CourtStaffID</nc:IdentificationSourceText>
+        </nc:PersonOtherIdentification>
+      </ecf:EntityPerson>
+      <ecf:CaseParticipantRoleCode>Courtroom Clerk</ecf:CaseParticipantRoleCode>
+    </aoc:CaseParticipant>
+  </aoc:CaseAugmentation>
+  <ecf:CauseOfActionCode />
+  <civil:ClassActionIndicator>false</civil:ClassActionIndicator>
+  <civil:JuryDemandIndicator>false</civil:JuryDemandIndicator>
+  <civil:ReliefTypeCode />
+  <aoc:CaseGeneralCategoryText>2</aoc:CaseGeneralCategoryText>
+  <aoc:CaseSubCategoryText>Non-Death/Personal Injury</aoc:CaseSubCategoryText>
+</aoc:CivilCase>

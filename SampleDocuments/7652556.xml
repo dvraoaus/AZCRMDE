@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ecf:DocumentType xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:juvenile="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:JuvenileCase-4.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:fsrsp="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusResponseMessage-4.0" xmlns:domestic="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:DomesticCase-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:criminal="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CriminalCase-4.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:appellate="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:AppellateCase-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:citation="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CitationCase-4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:statusquery="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:FilingStatusQueryMessage-4.0" xmlns:civil="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0" xmlns:reviewcb="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:ReviewFilingCallbackMessage-4.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" s:id="e82732f7-0ac2-4598-9e64-8f1a396fc57c" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+  <nc:DocumentApplicationName>application/pdf</nc:DocumentApplicationName>
+  <nc:DocumentDescriptionText>Witness List</nc:DocumentDescriptionText>
+  <nc:DocumentFiledDate>
+    <nc:DateTime>1996-06-05T00:00:00</nc:DateTime>
+  </nc:DocumentFiledDate>
+  <nc:DocumentStatus>
+    <nc:StatusText>Filed</nc:StatusText>
+    <nc:StatusDate>
+      <nc:DateTime>1996-06-05T00:00:00</nc:DateTime>
+    </nc:StatusDate>
+  </nc:DocumentStatus>
+  <nc:DocumentCategoryText>Miscellaneous</nc:DocumentCategoryText>
+  <ecf:DocumentMetadata>
+    <j:RegisterActionDescriptionText />
+    <aoc:FilingAttorneyID />
+    <FilingPartyID xmlns="http://schema.azcourts.az.gov/courts/efiling/ecf/extension/2.0" />
+  </ecf:DocumentMetadata>
+  <ecf:DocumentRendition>
+    <nc:DocumentFileControlID>C20140006</nc:DocumentFileControlID>
+    <nc:DocumentIdentification>
+      <nc:IdentificationID>7652556</nc:IdentificationID>
+      <nc:IdentificationCategoryText>DocumentID</nc:IdentificationCategoryText>
+    </nc:DocumentIdentification>
+    <ecf:DocumentRenditionMetadata>
+      <ecf:DocumentAttachment>
+        <nc:BinaryBase64Object>JVBERi0xLjUNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFuZyhlbi1VUykgPj4NCmVuZG9iag0KMiAwIG9iag0KPDwvVHlwZS9QYWdlcy9Db3VudCAxL0tpZHNbIDMgMCBSXSA+Pg0KZW5kb2JqDQozIDAgb2JqDQo8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL1Jlc291cmNlczw8L0ZvbnQ8PC9GMSA1IDAgUj4+L1Byb2NTZXRbL1BERi9UZXh0L0ltYWdlQi9JbWFnZUMvSW1hZ2VJXSA+Pi9NZWRpYUJveFsgMCAwIDYxMiA3OTJdIC9Db250ZW50cyA0IDAgUi9Hcm91cDw8L1R5cGUvR3JvdXAvUy9UcmFuc3BhcmVuY3kvQ1MvRGV2aWNlUkdCPj4vVGFicy9TPj4NCmVuZG9iag0KNCAwIG9iag0KPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCAxODA+Pg0Kc3RyZWFtDQp4nIWQsQrCMBCG90De4cZkaMwlbZqMtmihoFO24iAlSqFa0KKvbwuKFlrk4Kbv++/4M0/JaougDfgTJQhyGIRUCaliMNYIbcFfKJFwHldBScWKEvbhCXnzaHikWAtcs/x4D8AP4EtKNkNo5r9p2iqByW9axRZZN7A4ZXdd33TXJePzq7bCqLfRd7Cu69AGHml2O/ZhwVXjZ+nU/XMnsVI4t8COVSIKGc+1mcRGOJwxXxZ+Tc4NCmVuZHN0cmVhbQ0KZW5kb2JqDQo1IDAgb2JqDQo8PC9UeXBlL0ZvbnQvU3VidHlwZS9UcnVlVHlwZS9OYW1lL0YxL0Jhc2VGb250L0FyaWFsL0VuY29kaW5nL1dpbkFuc2lFbmNvZGluZy9Gb250RGVzY3JpcHRvciA2IDAgUi9GaXJzdENoYXIgMzIvTGFzdENoYXIgMTE5L1dpZHRocyA4IDAgUj4+DQplbmRvYmoNCjYgMCBvYmoNCjw8L1R5cGUvRm9udERlc2NyaXB0b3IvRm9udE5hbWUvQXJpYWwvRmxhZ3MgMzIvSXRhbGljQW5nbGUgMC9Bc2NlbnQgOTA1L0Rlc2NlbnQgLTIxMC9DYXBIZWlnaHQgNzI4L0F2Z1dpZHRoIDQ0MS9NYXhXaWR0aCAyNjY1L0ZvbnRXZWlnaHQgNDAwL1hIZWlnaHQgMjUwL0xlYWRpbmcgMzMvU3RlbVYgNDQvRm9udEJCb3hbIC02NjUgLTIxMCAyMDAwIDcyOF0gPj4NCmVuZG9iag0KNyAwIG9iag0KPDwvQXV0aG9yKERWIFJhbykgL0NyZWF0b3Io/v8ATQBpAGMAcgBvAHMAbwBmAHQArgAgAFcAbwByAGQAIAAyADAAMQAwKSAvQ3JlYXRpb25EYXRlKEQ6MjAxNTAzMjUxMTA3NTQtMDYnMDAnKSAvTW9kRGF0ZShEOjIwMTUwMzI1MTEwNzU0LTA2JzAwJykgL1Byb2R1Y2VyKP7/AE0AaQBjAHIAbwBzAG8AZgB0AK4AIABXAG8AcgBkACAAMgAwADEAMCkgPj4NCmVuZG9iag0KOCAwIG9iag0KWyAyNzggMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDY2NyAwIDcyMiAwIDAgMCA3NzggMCAwIDUwMCAwIDAgODMzIDcyMiAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA1NTYgMCA1MDAgMCA1NTYgMCAwIDAgMjIyIDAgMCAyMjIgMCA1NTYgNTU2IDAgMCAzMzMgNTAwIDI3OCAwIDUwMCA3MjJdIA0KZW5kb2JqDQo5IDAgb2JqDQo8PC9UeXBlL1hSZWYvU2l6ZSA5L1dbIDEgNCAyXSAvUm9vdCAxIDAgUi9JbmZvIDcgMCBSL0lEWzw4NUU1NUNENUEzN0FGRjQzQTkzNTgwREY5MURBOTYwMT48ODVFNTVDRDVBMzdBRkY0M0E5MzU4MERGOTFEQTk2MDE+XSAvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCA0ND4+DQpzdHJlYW0NCnicY2AAgv//GYGkIAMDiPKDUG1gijEGTDFFQagfYIr5Bphi2czAAADIEgYxDQplbmRzdHJlYW0NCmVuZG9iag0KeHJlZg0KMCAxMA0KMDAwMDAwMDAwMCA2NTUzNSBmDQowMDAwMDAwMDE3IDAwMDAwIG4NCjAwMDAwMDAwNzggMDAwMDAgbg0KMDAwMDAwMDEzNCAwMDAwMCBuDQowMDAwMDAwMzQ4IDAwMDAwIG4NCjAwMDAwMDA2MDIgMDAwMDAgbg0KMDAwMDAwMDc2MCAwMDAwMCBuDQowMDAwMDAwOTg0IDAwMDAwIG4NCjAwMDAwMDEyMDMgMDAwMDAgbg0KMDAwMDAwMTQzOSAwMDAwMCBuDQp0cmFpbGVyDQo8PC9TaXplIDEwL1Jvb3QgMSAwIFIvSW5mbyA3IDAgUi9JRFs8ODVFNTVDRDVBMzdBRkY0M0E5MzU4MERGOTFEQTk2MDE+PDg1RTU1Q0Q1QTM3QUZGNDNBOTM1ODBERjkxREE5NjAxPl0gPj4NCnN0YXJ0eHJlZg0KMTY4MA0KJSVFT0YNCnhyZWYNCjAgMA0KdHJhaWxlcg0KPDwvU2l6ZSAxMC9Sb290IDEgMCBSL0luZm8gNyAwIFIvSURbPDg1RTU1Q0Q1QTM3QUZGNDNBOTM1ODBERjkxREE5NjAxPjw4NUU1NUNENUEzN0FGRjQzQTkzNTgwREY5MURBOTYwMT5dIC9QcmV2IDE2ODAvWFJlZlN0bSAxNDM5Pj4NCnN0YXJ0eHJlZg0KMjAzNQ0KJSVFT0Y=</nc:BinaryBase64Object>
+        <nc:BinaryDescriptionText>application/pdf</nc:BinaryDescriptionText>
+        <nc:BinaryLocationURI />
+        <nc:BinarySizeValue>2.158203125</nc:BinarySizeValue>
+      </ecf:DocumentAttachment>
+    </ecf:DocumentRenditionMetadata>
+  </ecf:DocumentRendition>
+</ecf:DocumentType>

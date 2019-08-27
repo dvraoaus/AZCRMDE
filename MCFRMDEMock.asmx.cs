@@ -164,7 +164,42 @@ namespace Arizona.Courts.Services.v20
                         File.Delete(savedFileName);
                     }
                     File.WriteAllText(savedFileName, ReviewFilingRequest);
+                    long submissionIDNumber = 0;
+                    long.TryParse(submissionID.Replace("130-" , ""), out submissionIDNumber);
+                    if (submissionIDNumber % 3 == 0)
+                    {
+                        reviewFilingResponse =
+                                               "<MessageReceiptMessage xmlns =\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageReceiptMessage-3.0\"" +
+                                               " xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:jxdm=\"http://www.it.ojp.gov/jxdm/3.0.3\"" +
+                                               " xmlns:j-xsd =\"http://www.it.ojp.gov/jxdm/3.0.3/proxy/xsd/1.0\" xmlns:i=\"http://www.it.ojp.gov/jxdm/appinfo/1\"" +
+                                               " xmlns:common=\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-3.0\"" +
+                                               " xmlns:message =\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageTypes-3.0\"" +
+                                               " xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"" +
+                                               " xsi:schemaLocation=\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageReceiptMessage - 3.0../xsd/message/ECF-3.0-MessageReceiptMessage.xsd\">" +
+                                               " <jxdm:ActivityCourt><jxdm:OrganizationID><jxdm:ID>154</jxdm:ID></jxdm:OrganizationID><jxdm:CourtName>Maricopa County Superior Court,Downtown</jxdm:CourtName></jxdm:ActivityCourt>" +
+                                               " <jxdm:SubmissionSubmitter.Person><jxdm:PersonAssignedIDDetails><jxdm:PersonOtherID><jxdm:ID>130:support @aoc.gov </jxdm:ID><jxdm:IDTypeText>Vendor</jxdm:IDTypeText></jxdm:PersonOtherID></jxdm:PersonAssignedIDDetails></jxdm:SubmissionSubmitter.Person>" +
+                                               " <jxdm:SubmissionSubmittedDate>01/10/2018</jxdm:SubmissionSubmittedDate><jxdm:SubmissionSubmittedTime>11:31:09 AM</jxdm:SubmissionSubmittedTime><jxdm:SubmissionReceivedDate > 01/10/2018 </jxdm:SubmissionReceivedDate><jxdm:SubmissionReceivedTime>11:30:50 AM</jxdm:SubmissionReceivedTime>" +
+                                               " <message:SendingMDELocationID><jxdm:ID>130</jxdm:ID></message:SendingMDELocationID><message:SendingMDEProfileCode>130</message:SendingMDEProfileCode><message:FilingID><jxdm:ID>130-1005588</jxdm:ID></message:FilingID>" +
+                                               " <message:Error><message:ErrorCode>1</message:ErrorCode><message:ErrorText>FilingLeadDocumentURI file *: 4825a624 - 61fd - 4fff - a04f - 7bfc023849c6.docx is in MS Word format but is not a Proposed Order.</message:ErrorText></message:Error></MessageReceiptMessage>";
 
+
+                    }
+                    else
+                    {
+                        reviewFilingResponse =
+                                               "<MessageReceiptMessage xmlns =\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageReceiptMessage-3.0\"" +
+                                               " xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:jxdm=\"http://www.it.ojp.gov/jxdm/3.0.3\"" +
+                                               " xmlns:j-xsd =\"http://www.it.ojp.gov/jxdm/3.0.3/proxy/xsd/1.0\" xmlns:i=\"http://www.it.ojp.gov/jxdm/appinfo/1\"" +
+                                               " xmlns:common=\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-3.0\"" +
+                                               " xmlns:message =\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageTypes-3.0\"" +
+                                               " xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"" +
+                                               " xsi:schemaLocation=\"urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:MessageReceiptMessage - 3.0../xsd/message/ECF-3.0-MessageReceiptMessage.xsd\">" +
+                                               " <jxdm:ActivityCourt><jxdm:OrganizationID><jxdm:ID>154</jxdm:ID></jxdm:OrganizationID><jxdm:CourtName>Maricopa County Superior Court,Downtown</jxdm:CourtName></jxdm:ActivityCourt>" +
+                                               " <jxdm:SubmissionSubmitter.Person><jxdm:PersonAssignedIDDetails><jxdm:PersonOtherID><jxdm:ID>130:support @aoc.gov </jxdm:ID><jxdm:IDTypeText>Vendor</jxdm:IDTypeText></jxdm:PersonOtherID></jxdm:PersonAssignedIDDetails></jxdm:SubmissionSubmitter.Person>" +
+                                               " <jxdm:SubmissionSubmittedDate>01/10/2018</jxdm:SubmissionSubmittedDate><jxdm:SubmissionSubmittedTime>11:31:09 AM</jxdm:SubmissionSubmittedTime><jxdm:SubmissionReceivedDate > 01/10/2018 </jxdm:SubmissionReceivedDate><jxdm:SubmissionReceivedTime>11:30:50 AM</jxdm:SubmissionReceivedTime>" +
+                                               " <message:SendingMDELocationID><jxdm:ID>130</jxdm:ID></message:SendingMDELocationID><message:SendingMDEProfileCode>130</message:SendingMDEProfileCode><message:FilingID><jxdm:ID>130-1005588</jxdm:ID></message:FilingID>" +
+                                               " <message:Error><message:ErrorCode>0</message:ErrorCode><message:ErrorText></message:ErrorText></message:Error></MessageReceiptMessage>";
+                    }
                 }
             }
             catch (Exception ex)
