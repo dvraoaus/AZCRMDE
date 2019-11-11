@@ -13,7 +13,6 @@
     =======================================================================
 	*/
 
-using Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -26,30 +25,44 @@ using core = Oasis.LegalXml.CourtFiling.v40.Core;
 using ecf = Oasis.LegalXml.CourtFiling.v40.Ecf;
 using nc = Niem.NiemCore.v20;
 using wmp = Oasis.LegalXml.CourtFiling.v40.WebServiceMessagingProfile;
+using message = Oasis.LegalXml.CourtFiling.v40.Message;
+using amc20 = Arizona.Courts.ExChanges.v20;
+using amc21 = Arizona.Courts.ExChanges.v21;
+using azs = Arizona.Courts.Services.v20;
 
 namespace Arizona.Courts.Services.v20
 {
-    [ServiceBehavior(Name = "FilingReviewMDEService", Namespace = "urn:oasis:names:tc:legalxml-courtfiling:wsdl:WebServiceMessagingProfile-Definitions-4.0"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
-    public class FilingReviewMDE : wmp.IFilingReviewMDE
+    [ServiceBehavior(Name = "FilingReviewMDEService", Namespace = "http://schema.azcourts.az.gov/aoc/efiling/ecf/exchange/services/2.0/FilingReviewMDEPort"), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+    public class FilingReviewMDE : azs.IFilingReviewMDE
     {
 
-        public ReviewFilingResponse ReviewFiling(wmp.ReviewFilingRequest reviewFilingRequest)
+        public wmp.ReviewFilingResponse ReviewFiling(wmp.ReviewFilingRequest reviewFilingRequest)
         {
-            ReviewFilingResponse response = new ReviewFilingResponse
+            bool use21Version = reviewFilingRequest != null &&
+                                reviewFilingRequest.ReviewFilingRequestMessageObject != null &&
+                                reviewFilingRequest.ReviewFilingRequestMessageObject is amc21.ReviewFilingRequestWrapperType;
+
+            wmp.ReviewFilingResponse response = null;
+            message.MessageReceiptMessageType messageReceipt = new message.MessageReceiptMessageType
             {
-                 MessageReceiptMessage = new Oasis.LegalXml.CourtFiling.v40.Message.MessageReceiptMessageType
-                 {
-                    SendingMDELocationID = new  nc.IdentificationType("http:/courts.az.gov/aoc/efiling/CRMDE") ,
-                    SendingMDEProfileCode =  nc.Constants.ECF4_WEBSERVICES_SIP_CODE ,
-                    CaseCourt = reviewFilingRequest != null && 
-                                reviewFilingRequest.ReviewFilingRequestMessage != null && 
+                SendingMDELocationID = new nc.IdentificationType("http:/courts.az.gov/aoc/efiling/CRMDE"),
+                SendingMDEProfileCode = nc.Constants.ECF4_WEBSERVICES_SIP_CODE,
+                CaseCourt = reviewFilingRequest != null &&
+                                reviewFilingRequest.ReviewFilingRequestMessage != null &&
                                 reviewFilingRequest.ReviewFilingRequestMessage.CoreFilingMessage != null ?
-                                ecf. EcfHelper.GetCourt(reviewFilingRequest.ReviewFilingRequestMessage.CoreFilingMessage.Case) :
+                                ecf.EcfHelper.GetCourt(reviewFilingRequest.ReviewFilingRequestMessage.CoreFilingMessage.Case) :
                                 null
 
-                 }
-
-            } ;
+            };
+            if (use21Version)
+            {
+                response = new wmp.ReviewFilingResponse(new amc21.ReviewFilingResponseType {  MessageReceiptMessage = messageReceipt });
+            }
+            else
+            {
+                response = new wmp.ReviewFilingResponse(new amc20.ReviewFilingResponseType { MessageReceiptMessage = messageReceipt });
+            }
+            
 
             try
             {
@@ -58,15 +71,15 @@ namespace Arizona.Courts.Services.v20
 
                 if (!string.IsNullOrEmpty(confirmationId))
                 {
-                    response.MessageReceiptMessage.DocumentIdentification = new List<nc.IdentificationType>
+                    messageReceipt.DocumentIdentification = new List<nc.IdentificationType>
                     {
                          new nc.IdentificationType(confirmationId) 
                     };
-                    response.MessageReceiptMessage.Error = ecf.EcfHelper.QuerySuccessfull();
+                    messageReceipt.Error = ecf.EcfHelper.QuerySuccessfull();
                 }
                 else
                 {
-                    response.MessageReceiptMessage.Error = ecf.EcfHelper.ErrorList("-9999", "Error Saving Record Filing Operation");
+                    messageReceipt.Error = ecf.EcfHelper.ErrorList("-9999", "Error Saving Record Filing Operation");
                 }
 
 
@@ -115,9 +128,9 @@ namespace Arizona.Courts.Services.v20
         }
 
 
-        public NotifyDocketingCompleteResponse NotifyDocketingComplete(NotifyDocketingCompleteRequest notifyDocketingCompleteRequest)
+        public wmp.NotifyDocketingCompleteResponse NotifyDocketingComplete(wmp.NotifyDocketingCompleteRequest notifyDocketingCompleteRequest)
         {
-            NotifyDocketingCompleteResponse response = new NotifyDocketingCompleteResponse
+            wmp.NotifyDocketingCompleteResponse response = new wmp.NotifyDocketingCompleteResponse
             {
                 MessageReceiptMessage = new Oasis.LegalXml.CourtFiling.v40.Message.MessageReceiptMessageType
                 {
@@ -127,15 +140,15 @@ namespace Arizona.Courts.Services.v20
             return response;
         }
 
-        public NotifyFilingStatusChangeResponse NotifyFilingStatusChange(NotifyFilingStatusChangeRequest notifyFilingStatusChangeRequest)
+        public wmp.NotifyFilingStatusChangeResponse NotifyFilingStatusChange(wmp.NotifyFilingStatusChangeRequest notifyFilingStatusChangeRequest)
         {
-            NotifyFilingStatusChangeResponse response = new NotifyFilingStatusChangeResponse { };
+            wmp.NotifyFilingStatusChangeResponse response = new wmp.NotifyFilingStatusChangeResponse { };
             return response;
         }
 
-        public GetFilingStatusResponse GetFilingStatus(GetFilingStatusRequest getFilingStatusRequest)
+        public wmp.GetFilingStatusResponse GetFilingStatus(wmp.GetFilingStatusRequest getFilingStatusRequest)
         {
-            GetFilingStatusResponse response = new GetFilingStatusResponse { };
+            wmp.GetFilingStatusResponse response = new wmp.GetFilingStatusResponse { };
             return response;
         }
 
