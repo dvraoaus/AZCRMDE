@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <CivilCase a:id="faa301fb-265d-4d72-8e7c-c9820a9b3ec4" xmlns="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:a="http://niem.gov/niem/structures/2.0">
+                  <CaseTitleText xmlns="http://niem.gov/niem/niem-core/2.0">SALT RIVER PROJECT 
+PLAINTIFF
+vs
+VELMA VUMEER et al.
+DEFENDANT</CaseTitleText>
+                  <CaseCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">C82</CaseCategoryText>
+                  <CaseTrackingID xmlns="http://niem.gov/niem/niem-core/2.0">S8015CV201900180</CaseTrackingID>
+                  <CaseAugmentation xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+                     <j:CaseCourt xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <nc:OrganizationIdentification>
+                           <nc:IdentificationID>courts.az.gov:8015</nc:IdentificationID>
+                        </nc:OrganizationIdentification>
+                        <nc:OrganizationLocation>
+                           <nc:LocationAddress>
+                              <nc:StructuredAddress>
+                                 <nc:LocationStreet>
+                                    <nc:StreetFullText>401 E. Spring Street</nc:StreetFullText>
+                                 </nc:LocationStreet>
+                                 <nc:LocationCityName>Kingman</nc:LocationCityName>
+                                 <nc:LocationStateName>AZ</nc:LocationStateName>
+                                 <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                 <nc:LocationPostalCode>86401</nc:LocationPostalCode>
+                              </nc:StructuredAddress>
+                           </nc:LocationAddress>
+                           <nc:LocationName>Mohave County Superior</nc:LocationName>
+                        </nc:OrganizationLocation>
+                        <j:CourtName>Mohave County Superior</j:CourtName>
+                     </j:CaseCourt>
+                  </CaseAugmentation>
+                  <CaseAugmentation>
+                     <ecf:CaseOfficial xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <nc:RoleOfPersonReference s:ref="f0547ac0-29b8-4037-b924-6194626028ea"/>
+                        <j:JudicialOfficialBarMembership xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <j:JudicialOfficialBarIdentification>
+                              <nc:IdentificationID>002675</nc:IdentificationID>
+                              <j:IdentificationJurisdictionNCICLISCode>AZ</j:IdentificationJurisdictionNCICLISCode>
+                              <nc:IdentificationSourceText>AZ</nc:IdentificationSourceText>
+                           </j:JudicialOfficialBarIdentification>
+                        </j:JudicialOfficialBarMembership>
+                        <ecf:CaseRepresentedPartyReference s:ref="c656ed4c-4643-4c1e-b987-459d88ad35ab"/>
+                     </ecf:CaseOfficial>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="b86e47ae-5ed2-42e4-af65-5e72880c82ac">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>VELMA</nc:PersonGivenName>
+                              <nc:PersonMiddleName/>
+                              <nc:PersonSurName>VUMEER</nc:PersonSurName>
+                              <nc:PersonFullName>VELMA VUMEER</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3648371</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>5704964</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="b540bbc1-76c9-4e8c-b319-da8242a233cf">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>SHAGGY</nc:PersonGivenName>
+                              <nc:PersonMiddleName/>
+                              <nc:PersonSurName>SUNDEN</nc:PersonSurName>
+                              <nc:PersonFullName>SHAGGY SUNDEN</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3648372</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>5704965</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="cb6b1f4d-6f3f-43f7-a3de-8c59b4991475">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>ERIC</nc:PersonGivenName>
+                              <nc:PersonMiddleName/>
+                              <nc:PersonSurName>EVANS</nc:PersonSurName>
+                              <nc:PersonFullName>ERIC EVANS</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3648373</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>5704966</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="b2e99718-0b63-4496-bce1-b350b24af299">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>SCOTT</nc:PersonGivenName>
+                              <nc:PersonMiddleName/>
+                              <nc:PersonSurName>SMITH</nc:PersonSurName>
+                              <nc:PersonFullName>SCOTT SMITH</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3648374</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>5704967</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="f0547ac0-29b8-4037-b924-6194626028ea">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>William</nc:PersonGivenName>
+                              <nc:PersonMiddleName>S</nc:PersonMiddleName>
+                              <nc:PersonSurName>Atlee</nc:PersonSurName>
+                              <nc:PersonFullName>William S Atlee</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3648375</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>AttorneyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>Y</ecf:CaseParticipantRoleCode>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0">
+                        <aoc:EntityOrganization s:id="c656ed4c-4643-4c1e-b987-459d88ad35ab">
+                           <nc:OrganizationIdentification>
+                              <nc:IdentificationID>3648370</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:OrganizationIdentification>
+                           <nc:OrganizationIdentification>
+                              <nc:IdentificationID>5704963</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+                           </nc:OrganizationIdentification>
+                           <nc:OrganizationName>SALT RIVER PROJECT</nc:OrganizationName>
+                           <ecf:OrganizationAugmentation>
+                              <nc:ContactInformation>
+                                 <nc:ContactMailingAddress>
+                                    <nc:StructuredAddress>
+                                       <nc:LocationStreet>
+                                          <nc:StreetFullText>6890 E SUNRISE DR STE 1</nc:StreetFullText>
+                                       </nc:LocationStreet>
+                                       <nc:LocationCityName>TUCSON</nc:LocationCityName>
+                                       <nc:LocationStateName>AZ</nc:LocationStateName>
+                                       <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                       <nc:LocationPostalCode>85750-0752</nc:LocationPostalCode>
+                                    </nc:StructuredAddress>
+                                 </nc:ContactMailingAddress>
+                              </nc:ContactInformation>
+                           </ecf:OrganizationAugmentation>
+                        </aoc:EntityOrganization>
+                        <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                  </CaseAugmentation>
+                  <CauseOfActionCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0"/>
+                  <ClassActionIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</ClassActionIndicator>
+                  <JuryDemandIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</JuryDemandIndicator>
+                  <ReliefTypeCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0"/>
+                  <CaseGeneralCategoryText>CV</CaseGeneralCategoryText>
+               </CivilCase>

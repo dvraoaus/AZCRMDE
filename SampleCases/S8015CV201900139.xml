@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <CivilCase a:id="c4a2f2f1-85fe-4bc1-a458-e70494cabe56" xmlns="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:a="http://niem.gov/niem/structures/2.0">
+                  <CaseTitleText xmlns="http://niem.gov/niem/niem-core/2.0">FIRMATTY MID THOMPSONTWO 
+PLAINTIFF
+vs
+FIRMATTY MID THOMPSONTWO 
+DEFENDANT</CaseTitleText>
+                  <CaseCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">CO</CaseCategoryText>
+                  <CaseTrackingID xmlns="http://niem.gov/niem/niem-core/2.0">S8015CV201900139</CaseTrackingID>
+                  <CaseAugmentation xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+                     <j:CaseCourt xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <nc:OrganizationIdentification>
+                           <nc:IdentificationID>courts.az.gov:8015</nc:IdentificationID>
+                        </nc:OrganizationIdentification>
+                        <nc:OrganizationLocation>
+                           <nc:LocationAddress>
+                              <nc:StructuredAddress>
+                                 <nc:LocationStreet>
+                                    <nc:StreetFullText>401 E. Spring Street</nc:StreetFullText>
+                                 </nc:LocationStreet>
+                                 <nc:LocationCityName>Kingman</nc:LocationCityName>
+                                 <nc:LocationStateName>AZ</nc:LocationStateName>
+                                 <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                 <nc:LocationPostalCode>86401</nc:LocationPostalCode>
+                              </nc:StructuredAddress>
+                           </nc:LocationAddress>
+                           <nc:LocationName>Mohave County Superior</nc:LocationName>
+                        </nc:OrganizationLocation>
+                        <j:CourtName>Mohave County Superior</j:CourtName>
+                     </j:CaseCourt>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-08-05T14:33:57-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode>15190</ecf:CourtEventTypeCode>
+                        <ecf:CourtEventDocument s:id="a4d8eddb-509a-4512-8c29-24b902970a3e" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-08-05T14:33:57-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>EFILING: test</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>8524004</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-08-05T14:33:57-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode>IDSCT1</ecf:CourtEventTypeCode>
+                        <ecf:CourtEventDocument s:id="a4ae2a87-89d9-4aee-8c3f-49227c6cdc50" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-08-05T14:33:57-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>EFILING: Discovery Tier I Place holder document System Generated</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>8524005</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                     <ecf:CaseCourtEvent xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                        <ecf:CourtEventEnteredOnDocketDate>
+                           <nc:DateTime>2019-08-05T14:33:57-07:00</nc:DateTime>
+                        </ecf:CourtEventEnteredOnDocketDate>
+                        <ecf:CourtEventTypeCode>15330</ecf:CourtEventTypeCode>
+                        <ecf:CourtEventDocument s:id="ea5d3cd9-0ca1-4181-a7a3-58a19ca9d30a" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+                           <nc:DocumentStatus>
+                              <nc:StatusText>Filed</nc:StatusText>
+                              <nc:StatusDate>
+                                 <nc:DateTime>2019-08-05T14:33:57-07:00</nc:DateTime>
+                              </nc:StatusDate>
+                           </nc:DocumentStatus>
+                           <nc:DocumentTitleText>EFILING: Summons FIRMATTY MID THOMPSONTWO System Generated</nc:DocumentTitleText>
+                           <ecf:DocumentMetadata>
+                              <j:RegisterActionDescriptionText/>
+                              <aoc:FilingAttorneyID/>
+                              <aoc:FilingPartyID/>
+                           </ecf:DocumentMetadata>
+                           <ecf:DocumentRendition>
+                              <nc:DocumentIdentification>
+                                 <nc:IdentificationID>8524006</nc:IdentificationID>
+                                 <nc:IdentificationCategoryText>SourceDocumentID</nc:IdentificationCategoryText>
+                              </nc:DocumentIdentification>
+                              <ecf:DocumentRenditionMetadata>
+                                 <nc:DocumentDescriptionText/>
+                                 <ecf:DocumentAttachment/>
+                              </ecf:DocumentRenditionMetadata>
+                           </ecf:DocumentRendition>
+                        </ecf:CourtEventDocument>
+                     </ecf:CaseCourtEvent>
+                  </CaseAugmentation>
+                  <CaseAugmentation>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="b3c05e75-b89e-413d-9246-38515ad99938">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>FIRMATTY</nc:PersonGivenName>
+                              <nc:PersonMiddleName>MID</nc:PersonMiddleName>
+                              <nc:PersonSurName>THOMPSONTWO</nc:PersonSurName>
+                              <nc:PersonFullName>FIRMATTY MID THOMPSONTWO</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3648123</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>5704739</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <ecf:PersonAugmentation>
+                              <nc:ContactInformation>
+                                 <nc:ContactMailingAddress>
+                                    <nc:StructuredAddress>
+                                       <nc:LocationStreet>
+                                          <nc:StreetFullText>555 N CENTRAL</nc:StreetFullText>
+                                       </nc:LocationStreet>
+                                       <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                                       <nc:LocationStateName>AZ</nc:LocationStateName>
+                                       <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                       <nc:LocationPostalCode>85001</nc:LocationPostalCode>
+                                    </nc:StructuredAddress>
+                                 </nc:ContactMailingAddress>
+                              </nc:ContactInformation>
+                           </ecf:PersonAugmentation>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>P</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0">
+                        <ecf:EntityPerson s:id="ebeb59e7-256a-475f-b961-db56025b2858">
+                           <nc:PersonName>
+                              <nc:PersonGivenName>FIRMATTY</nc:PersonGivenName>
+                              <nc:PersonMiddleName>MID</nc:PersonMiddleName>
+                              <nc:PersonSurName>THOMPSONTWO</nc:PersonSurName>
+                              <nc:PersonFullName>FIRMATTY MID THOMPSONTWO</nc:PersonFullName>
+                           </nc:PersonName>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>3648124</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <nc:PersonOtherIdentification>
+                              <nc:IdentificationID>5704740</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PersonID</nc:IdentificationSourceText>
+                           </nc:PersonOtherIdentification>
+                           <ecf:PersonAugmentation>
+                              <nc:ContactInformation>
+                                 <nc:ContactMailingAddress>
+                                    <nc:StructuredAddress>
+                                       <nc:LocationStreet>
+                                          <nc:StreetFullText>555 N CENTRAL</nc:StreetFullText>
+                                       </nc:LocationStreet>
+                                       <nc:LocationCityName>PHOENIX</nc:LocationCityName>
+                                       <nc:LocationStateName>AZ</nc:LocationStateName>
+                                       <nc:LocationCountryFIPS10-4Code>US</nc:LocationCountryFIPS10-4Code>
+                                       <nc:LocationPostalCode>85001</nc:LocationPostalCode>
+                                    </nc:StructuredAddress>
+                                 </nc:ContactMailingAddress>
+                              </nc:ContactInformation>
+                           </ecf:PersonAugmentation>
+                        </ecf:EntityPerson>
+                        <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                     <aoc:CaseParticipant xmlns:aoc="http://schema.azcourts.az.gov/aoc/efiling/ecf/extension/2.0" xmlns:ecf="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0">
+                        <aoc:EntityOrganization s:id="cf5ddebb-46bb-4974-822a-b4e25264c2cc">
+                           <nc:OrganizationIdentification>
+                              <nc:IdentificationID>3648188</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>PartyID</nc:IdentificationSourceText>
+                           </nc:OrganizationIdentification>
+                           <nc:OrganizationIdentification>
+                              <nc:IdentificationID>5704790</nc:IdentificationID>
+                              <nc:IdentificationCategoryText>SourceParticipantID</nc:IdentificationCategoryText>
+                              <nc:IdentificationSourceText>OrganizationID</nc:IdentificationSourceText>
+                           </nc:OrganizationIdentification>
+                           <nc:OrganizationName>TESTING ORGANIZATION LLC</nc:OrganizationName>
+                        </aoc:EntityOrganization>
+                        <ecf:CaseParticipantRoleCode>D</ecf:CaseParticipantRoleCode>
+                        <aoc:CasePartySelfRepresentationIndicator/>
+                     </aoc:CaseParticipant>
+                  </CaseAugmentation>
+                  <CauseOfActionCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CommonTypes-4.0"/>
+                  <ClassActionIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</ClassActionIndicator>
+                  <JuryDemandIndicator xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0">false</JuryDemandIndicator>
+                  <ReliefTypeCode xmlns="urn:oasis:names:tc:legalxml-courtfiling:schema:xsd:CivilCase-4.0"/>
+                  <CaseGeneralCategoryText>CV</CaseGeneralCategoryText>
+                  <CaseSubCategoryText>AOS</CaseSubCategoryText>
+               </CivilCase>
